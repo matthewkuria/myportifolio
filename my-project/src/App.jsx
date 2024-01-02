@@ -2,6 +2,7 @@ import { useState } from 'react'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import About from './components/About'
+import ProjectCard from './components/ProjectCard'
 import './App.css'
 
 function App() {
@@ -12,7 +13,10 @@ function App() {
     <NavBar />
     <Hero />
     <About />
-      <h1 className='text-blue-400 text-xl'>Work in Progress...</h1>
+    <div className="">
+      <ProjectCard />
+    </div>
+      
     </>
   )
 }
