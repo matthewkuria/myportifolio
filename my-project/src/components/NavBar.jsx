@@ -4,7 +4,7 @@ export default function NavBar (){
     return(
         <section className="NavBar container flex items-center justify-between bg-cyan-400 h-20 w-full">
            <div className="">
-           <h3 className="font-bold text-3xl mx-3 text-blue-600">MK</h3>
+           <a href="/"><h3 className="font-bold text-3xl mx-3 text-blue-600">MK</h3></a>
            </div>
             <div className="hidden md:flex">
                 <ul className="flex justify-between">
