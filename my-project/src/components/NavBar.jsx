@@ -3,7 +3,7 @@ import React from "react";
 export default function NavBar (){
     return(
         <section className="NavBar container flex items-center justify-between bg-gray-300 h-20 w-full">
-            <h3 className="font-bold mx-3">Matthew Kuria</h3>
+            <h3 className="font-bold mx-3 text-blue-600">Matthew Kuria</h3>
             <div className="hidden md:flex">
                 <ul className="flex justify-between">
                     <li className="mx-5"><a href="" className="hover:font-semibold">Home</a></li>
