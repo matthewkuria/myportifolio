@@ -2,17 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
   line-height: 1.5;
-  background-color: rgb(24, 24, 35);
-  color: white;
+  /* background-color: rgb(24, 24, 35); */
+ 
 }
 
-body {
+body { 
   margin: 0; 
   padding: 0; 
   min-height: 100vh;
   
+}
+.TITLE{
+  font-family: 'Tangerine', cursive;
+  text-shadow: 0 ;
 }
 
