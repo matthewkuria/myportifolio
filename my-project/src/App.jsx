@@ -34,21 +34,23 @@ function App() {
     <Hero />
     <About />
     <div className="">
+      <h1 className='text-3xl mt-4 text-green-500 font-semibold'>Projects</h1>
       {cards}
     </div>
+    <h1 className='text-3xl mt-4 text-green-500 font-semibold'>Tech Stack</h1>
     <Skills />
-    <section className="FORM bg-blue-600 h-auto">
+    <section className="FORM bg-blue-600 h-auto mt-5">
             <h1 className='text-white font-bold'>Leave a Message </h1>
-            <form onSubmit={handleSubmit(onSubmit)} > 
+            <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col md:grid md:grid-cols-3 gap-4 p-8 justify-center'> 
 
-                    <input {...register("email")}  />          
+                    <input {...register("email")} className='md:w-full' placeholder='Email' />          
                 
-                    <input {...register("message")}/>
+                    <input {...register("message")} className='md:w-full ' placeholder='Message'/>
               
-                <button type="submit" className="bg-green-500 border-2  hover:animate-none border-green-500 hover:bg-white mx-4 px-3 py-2 rounded hover:text-green-500">Submit</button>
+                <button type="submit" className="bg-green-500 border-2  hover:animate-none border-green-500 hover:bg-white mx-4 px-3 py-2 rounded hover:text-green-500 md:w-1/2">Submit</button>
             </form>
             <div className="copyright justify-end text-white text-xs">
-              <h2>Developed by Matthew Kuria &copy;<span>{date}</span></h2>
+              <h2 className='mt-5'>Developed by Matthew Kuria &copy;<span>{date}</span></h2>
             </div>
         </section>
       

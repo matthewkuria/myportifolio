@@ -2,7 +2,7 @@ export default[
     {
         id:1,
         title:"Portifolio Project",
-        desc:"This is a portifolio project built using Vite web Bundler , developed in React JS and Styled using Tailwind CSS.It is hosted live on Netlify.This project is built to showcase my expertise and my skills in Frontend web development.",
+        desc:"This is a portifolio project built using Vite web Bundler , developed in React JS and styled using Tailwind CSS.It is hosted live on Netlify.This project is built to showcase my expertise and my skills in Frontend web development.",
         projImg:"portifolio.PNG",
         liveLink:"/",
         githubLink:"https://github.com/matthewkuria/myportifolio"

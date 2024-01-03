@@ -1,12 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
-
 
 :root {
 
@@ -24,5 +20,6 @@ body {
 .TITLE{
   font-family: 'Tangerine', cursive;
   text-shadow: 0 ;
+  
 }
 

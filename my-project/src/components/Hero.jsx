@@ -13,7 +13,7 @@ export default function Hero(){
            </button>
            <h1 className="text-2xl">Hey! There...</h1>
             <h1 className="text-3xl font-bold text-blue-600">I am Matthew Kuria</h1>
-            <p className="mt-4 TITLE">Software Developer,Web-designer, Graphics Designer</p>
+            <p className="mt-4 TITLE text-xl md:text-3xl">Software Developer,Web-designer, Graphics Designer</p>
 
             <div className="Socio-icons animate-bounce md:animate-pulse md:absolute flex items-center justify-between md:flex-col  md:right-10 bottom-44  mt-24 px-4 ">
                 <div className="my-3  mx-4 hover:animate-pulse">
