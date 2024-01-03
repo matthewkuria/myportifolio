@@ -2,11 +2,11 @@ import React from "react";
 
 export default function NavBar (){
     return(
-        <section className="NavBar container flex items-center justify-between bg-cyan-400 h-20 w-full">
+        <section className="NavBar container flex items-center justify-between bg-blue-600 h-20 w-full">
            <div className="">
-           <a href="/"><h3 className="font-bold text-3xl mx-3 text-blue-600">MK</h3></a>
+           <a href="/"><h3 className="font-bold text-3xl mx-3 text-white">MK</h3></a>
            </div>
-            <div className="hidden md:flex">
+            <div className="hidden md:flex text-white">
                 <ul className="flex justify-between">
                     <li className="mx-5"><a href="" className="hover:font-semibold uppercase">Home</a></li>
                     <li className="mx-5"><a href="" className="hover:font-semibold uppercase ">About</a></li>

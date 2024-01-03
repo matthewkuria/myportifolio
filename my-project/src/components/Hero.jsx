@@ -15,7 +15,7 @@ export default function Hero(){
             <h1 className="text-3xl font-bold text-blue-600">I am Matthew Kuria</h1>
             <p className="mt-4 TITLE">Software Developer,Web-designer, Graphics Designer</p>
 
-            <div className="Socio-icons md:absolute flex items-center justify-between md:flex-col  md:right-10 bottom-44  mt-24 px-4 ">
+            <div className="Socio-icons animate-bounce md:animate-pulse md:absolute flex items-center justify-between md:flex-col  md:right-10 bottom-44  mt-24 px-4 ">
                 <div className="my-3  mx-4 hover:animate-pulse">
                 <a href="https://twitter.com/matthew_kuria" className=" "><svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512"><path fill="#092fec" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a>
                 </div>
