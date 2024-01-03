@@ -24,16 +24,7 @@ export default function NavBar (){
                 </svg>
             </button>
             <div className="hambuger md:hidden">
-            <Hamburger toggled={isMenuOpen} toggle={setMenuOpen} color="white" easing="ease-in"
-            onToggle={toggled => {
-                if (toggled) {
-                   // open a menu
-                   
-                 
-                } else {
-                   // close a menu
-                }
-            }}
+            <Hamburger toggled={isMenuOpen} toggle={setMenuOpen} color="white" easing="ease-in"           
             />
             </div>
            {isMenuOpen &&
