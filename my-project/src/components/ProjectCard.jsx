@@ -13,8 +13,8 @@ export default function ProjectCard(props){
                     <p className="font-serif">{props.desc}</p>
                 </div>            
                 <div className="flex mt-5 justify-center ">
-                    <button className=" bg-green-500 border-2  hover:animate-none border-green-500 hover:bg-white mx-4 px-3 py-2 rounded hover:text-green-500"><a href={props.liveLink}>Live Project</a></button>
-                    <button className=" bg-blue-500 border-2  border-blue-500  hover:bg-white mx-4 px-3 py-2 rounded hover:text-blue-500"><a href={props.githubLink}>Review Code</a></button>
+                    <button className=" bg-white border-2  hover:animate-none border-green-500 hover:bg-green-500 mx-4 px-3 py-2 rounded text-green-500 hover:text-white"><a href={props.liveLink}>Live Project</a></button>
+                    <button className=" bg-blue-500 border-2  border-blue-500  hover:bg-white mx-4 px-3 py-2 rounded hover:text-blue-500 text-white"><a href={props.githubLink}>Review Code</a></button>
                </div>
             </div>
         </div>

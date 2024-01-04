@@ -35,11 +35,11 @@ function App() {
     <h1 className='text-2xl mt-10 text-blue-600 font-semibold'>Tech Stack</h1>
     <Skills />
     <div className="">
-      <h1 className='text-2xl mt-10 text-blue-600 font-semibold'>Projects</h1>
+      <h2 className='text-2xl mt-10 text-blue-600 font-semibold'>Projects</h2>
       {cards}
     </div>
    
-    <section className="FORM bg-blue-600 h-auto mt-5">
+    <section className="FORM bg-black h-auto mt-5">
             <h1 className='text-white font-bold'>Leave a Message </h1>
             <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col md:grid md:grid-cols-3 gap-4 p-8 justify-center'> 
 
@@ -47,7 +47,7 @@ function App() {
                 
                     <input {...register("message")} className='md:w-full ' placeholder='Message'/>
               
-                <button type="submit" className="bg-green-500 border-2  hover:animate-none border-green-500 hover:bg-white mx-4 px-3 py-2 rounded hover:text-green-500 md:w-1/2">Submit</button>
+                <button type="submit" className="bg-blue-500 border-2   border-blue-500 hover:bg-white mx-4 px-3 py-2 rounded text-white hover:text-blue-600 md:w-1/2">Submit</button>
             </form>
             <div className="copyright justify-end text-white text-xs">
               <h2 className='mt-5'>Developed by Matthew Kuria &copy;<span>{date}</span></h2>
