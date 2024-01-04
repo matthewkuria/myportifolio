@@ -1,0 +1,19 @@
+.dark-mode-toggle-container {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .dark-mode-toggle-button {
+    cursor: pointer;
+    padding: 8px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dark-mode-toggle-button.dark-mode {
+    background-color: #222;
+    color: #fff;
+  }
+  

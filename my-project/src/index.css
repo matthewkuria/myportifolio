@@ -7,7 +7,7 @@
 :root {
 
   line-height: 1.5;
-  /* background-color: rgb(24, 24, 35); */
+  /* background-color: #333; */
  
 }
 
@@ -18,8 +18,6 @@ body {
   
 }
 .TITLE{
-  font-family: 'Tangerine', cursive;
-  text-shadow: 0 ;
   
 }
 

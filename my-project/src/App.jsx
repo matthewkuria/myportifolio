@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -30,15 +29,16 @@ function App() {
 
   return (
     <>
+    
     <NavBar />
     <Hero />
-    <About />
+    <h1 className='text-2xl mt-10 text-blue-600 font-semibold'>Tech Stack</h1>
+    <Skills />
     <div className="">
-      <h1 className='text-3xl mt-4 text-green-500 font-semibold'>Projects</h1>
+      <h1 className='text-2xl mt-10 text-blue-600 font-semibold'>Projects</h1>
       {cards}
     </div>
-    <h1 className='text-3xl mt-4 text-green-500 font-semibold'>Tech Stack</h1>
-    <Skills />
+   
     <section className="FORM bg-blue-600 h-auto mt-5">
             <h1 className='text-white font-bold'>Leave a Message </h1>
             <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col md:grid md:grid-cols-3 gap-4 p-8 justify-center'> 
