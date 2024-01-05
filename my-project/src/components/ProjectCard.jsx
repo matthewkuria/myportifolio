@@ -9,7 +9,7 @@ export default function ProjectCard(props){
 
            <div className="md:flex-col">     
                 <div className="DESC text-left  p-3 mx-5">
-                    <h1 className="my-6 text-xl text-blue-600 font-bold"><span></span>{props.title}</h1>
+                    <h3 className="my-6 text-xl text-blue-600 font-bold"><span></span>{props.title}</h3>
                     <p className="font-serif">{props.desc}</p>
                 </div>            
                 <div className="flex mt-5 justify-center ">

@@ -32,7 +32,7 @@ function App() {
     
     <NavBar />
     <Hero />
-    <h1 className='text-2xl mt-10 text-blue-600 font-semibold'>Tech Stack</h1>
+    <h2 className='text-2xl mt-10 text-blue-600 font-semibold'>Tech Stack</h2>
     <Skills />
     <div className="">
       <h2 className='text-2xl mt-10 text-blue-600 font-semibold'>Projects</h2>
