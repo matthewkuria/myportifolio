@@ -10,7 +10,7 @@ export default function ProjectCard(props){
            <div className="md:flex-col">     
                 <div className="DESC text-left  p-3 mx-5">
                     <h3 className="my-6 text-xl text-blue-600 font-bold"><span></span>{props.title}</h3>
-                    <p className="font-serif">{props.desc}</p>
+                    <p className="font-mono">{props.desc}</p>
                 </div>            
                 <div className="flex mt-5 justify-center ">
                     <button className=" bg-white border-2  hover:animate-none border-green-500 hover:bg-green-500 mx-4 px-3 py-2 rounded text-green-500 hover:text-white"><a href={props.liveLink}>Live Project</a></button>
