@@ -43,9 +43,9 @@ function App() {
             <h1 className='text-white font-bold'>Leave a Message </h1>
             <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col md:grid md:grid-cols-3 gap-4 p-8 justify-center'> 
 
-                    <input {...register("email")} className='md:w-full bg-gray-300 rounded-md' placeholder='Email' />          
+                    <input {...register("email")} className='md:w-full bg-gray-300 rounded-md px-2' placeholder='Email' />          
                 
-                    <input {...register("message")} className='md:w-full bg-gray-300 rounded-md' placeholder='Message'/>
+                    <input {...register("message")} className='md:w-full bg-gray-300 rounded-md px-2' placeholder='Message'/>
               
                 <button type="submit" className="bg-blue-500 border-2   border-blue-500 hover:bg-white mx-4 px-3 py-2 rounded text-white hover:text-blue-600 md:w-1/2">Submit</button>
             </form>
