@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-key */
+import { useEffect, useState } from 'react'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -7,8 +9,16 @@ import data from './data'
 import './App.css'
 import {useForm} from "react-hook-form";
 
-function App() {
 
+function App() {
+  const [project, setProject] = useState("")
+  useEffect(()=>{
+    document.title =`You are on ${project}`;
+  });
+  const handleClick =()=>{
+    console.log("Clicked")
+   
+  }
   const current = new Date();
   const date = `${current.getFullYear()}`;
 
@@ -34,7 +44,7 @@ function App() {
     <Hero />
     <h2 className='text-2xl mt-10 text-blue-600 font-semibold'>Tech Stack</h2>
     <Skills />
-    <div className="">
+    <div className="" onClick={handleClick}>
       <h2 className='text-2xl mt-10 text-blue-600 font-semibold'>Projects</h2>
       {cards}
     </div>
