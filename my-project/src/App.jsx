@@ -1,8 +1,7 @@
 /* eslint-disable react/jsx-key */
-import { useEffect, useState } from 'react'
+
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
-import About from './components/About'
 import ProjectCard from './components/ProjectCard'
 import Skills from './components/Skills'
 import data from './data'
