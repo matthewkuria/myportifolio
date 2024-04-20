@@ -4,3 +4,6 @@
   padding: 4px;
   text-align: center;
 }
+header.dark{
+  background-color: black;
+}

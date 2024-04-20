@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable react/prop-types */
+
 import { useState } from "react";
 import { Divide as Hamburger } from 'hamburger-react'
 
@@ -6,12 +7,12 @@ import { Divide as Hamburger } from 'hamburger-react'
 export default function NavBar (props){
     const [isMenuOpen, setMenuOpen] = useState(false)
     return(
-        <header className="NavBar container text-blue-700 flex items-center justify-between h-20 w-full">
+        <header className={props.darkMode ? "dark": ""}>
            <div className="">
            <a href="/"><h3 className="font-bold text-3xl mx-3 ">MK</h3></a>
            </div>
            <div className="" onClick={props.toggleDarkMode}>
-
+             Toggle
            </div>
             <div className="hidden md:flex">
                 <ul className="flex justify-between">

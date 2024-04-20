@@ -11,7 +11,7 @@ import {useForm} from "react-hook-form";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
-  const handleToggle =() =>{
+  function handleToggle () {
     setDarkMode(prevMode => !prevMode)
   }
   
