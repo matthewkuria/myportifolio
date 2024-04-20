@@ -1,7 +1,8 @@
-import React from "react";
+/* eslint-disable react/prop-types */
+
 export default function ProjectCard(props){
     return(
-        <div className="card md:flex p-5 shadow-md hover:shadow-lg mt-12"> 
+        <div className={`${props.darkMode? "dark": ""}card md:flex p-5 shadow-md hover:shadow-lg mt-12`}> 
 
             <div className="IMAGE shadow ">
             <img src={`${props.img}`} alt="" className="w-full h-full hover:p-1"/>

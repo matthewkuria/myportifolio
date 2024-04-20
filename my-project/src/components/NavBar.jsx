@@ -7,7 +7,7 @@ import { Divide as Hamburger } from 'hamburger-react'
 export default function NavBar (props){
     const [isMenuOpen, setMenuOpen] = useState(false)
     return(
-        <header className={props.darkMode ? "dark": ""}>
+        <header className={`NavBar ${props.darkMode? "dark" : ""} container text-blue-700 flex items-center justify-between h-20 w-full`}>
            <div className="">
            <a href="/"><h3 className="font-bold text-3xl mx-3 ">MK</h3></a>
            </div>
