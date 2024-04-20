@@ -11,12 +11,8 @@ import {useForm} from "react-hook-form";
 
 
 function App() {
-  const [projectTitle, setProjectTitle] = useState("")
-  useEffect(()=>{
-    setProjectTitle(`You are on ${projectTitle}`)
-    document.title =projectTitle;
-
-  });
+  const [darkMode, setDarkMode] = useState(false)
+  
   const handleClick =()=>{
     console.log("Clicked")
    

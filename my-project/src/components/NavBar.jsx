@@ -1,14 +1,17 @@
 import React from "react";
 import { useState } from "react";
 import { Divide as Hamburger } from 'hamburger-react'
-import DarkModeToggle from "./DarkModeToggle";
 
-export default function NavBar (){
+
+export default function NavBar (props){
     const [isMenuOpen, setMenuOpen] = useState(false)
     return(
         <header className="NavBar container text-blue-700 flex items-center justify-between h-20 w-full">
            <div className="">
            <a href="/"><h3 className="font-bold text-3xl mx-3 ">MK</h3></a>
+           </div>
+           <div className="" onClick={props.toggleDarkMode}>
+
            </div>
             <div className="hidden md:flex">
                 <ul className="flex justify-between">
