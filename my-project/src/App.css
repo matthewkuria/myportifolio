@@ -4,6 +4,6 @@
   padding: 4px;
   text-align: center;
 }
-header.dark{
+header.dark, section.dark{
   background-color: black;
 }

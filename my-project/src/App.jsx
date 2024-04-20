@@ -24,12 +24,14 @@ function App() {
   const cards = data.map(item =>{
     return(
       <ProjectCard
-      id={item.id}
+        id={item.id}
         title={item.title}
         desc={item.desc}
         img={item.projImg}
         liveLink={item.liveLink}
         githubLink={item.githubLink}
+        darkMode={darkMode}
+       
       />
     )
   })
@@ -46,7 +48,10 @@ function App() {
     <Skills />
     <div className="" >
       <h2 className='text-2xl mt-10 text-blue-600 font-semibold'>Projects</h2>
-      {cards}
+      {cards      
+      
+      }
+      
     </div>
    
     <section className="FORM  h-auto mt-5">

@@ -2,7 +2,7 @@
 
 export default function ProjectCard(props){
     return(
-        <div className={`${props.darkMode? "dark": ""}card md:flex p-5 shadow-md hover:shadow-lg mt-12`}> 
+        <section className={` ${props.darkMode? "dark" : ""} card md:flex p-5 shadow-md hover:shadow-lg mt-12`}> 
 
             <div className="IMAGE shadow ">
             <img src={`${props.img}`} alt="" className="w-full h-full hover:p-1"/>
@@ -18,6 +18,6 @@ export default function ProjectCard(props){
                     <button className=" bg-blue-500 border-2  border-blue-500  hover:bg-white mx-4 px-3 py-2 rounded hover:text-blue-500 text-white"><a href={props.githubLink}>Review Code</a></button>
                </div>
             </div>
-        </div>
+        </section>
     )
 }
