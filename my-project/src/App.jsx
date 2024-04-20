@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-key */
-
+import { useState } from 'react'
 import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import ProjectCard from './components/ProjectCard'
@@ -11,11 +11,11 @@ import {useForm} from "react-hook-form";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
-  
-  const handleClick =()=>{
-    console.log("Clicked")
-   
+  const handleToggle =() =>{
+    setDarkMode(prevMode => !prevMode)
   }
+  
+ 
   const current = new Date();
   const date = `${current.getFullYear()}`;
 
@@ -37,11 +37,14 @@ function App() {
   return (
     <>
     
-    <NavBar />
+    <NavBar
+    darkMode={darkMode}
+    toggleDarkMode={handleToggle}
+     />
     <Hero />
     <h2 className='text-2xl mt-10 text-blue-600 font-semibold'>Tech Stack</h2>
     <Skills />
-    <div className="" onClick={handleClick}>
+    <div className="" >
       <h2 className='text-2xl mt-10 text-blue-600 font-semibold'>Projects</h2>
       {cards}
     </div>
