@@ -17,7 +17,7 @@ export default function Page() {
                 I got interested in learning the back end development where I chose Python,Django and PostgresSQL.
                 </p>
                 <p className="my-2">
-                When am coding & building on my computer I love travelling, bike riding or listening to music.
+                When am not coding & building on my computer I love travelling, bike riding or listening to music.
                 </p>
             </div>
             <div className="image md:absolute md:right-10 md:top-12 flex justify-center md:flex-none md:mx-10 ">
