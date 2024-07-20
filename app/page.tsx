@@ -45,21 +45,29 @@ export default function Home() {
               <CardDescription className="text-sky-500">Feb 2022 - June 2024</CardDescription>
             </CardHeader>
             <CardContent>
-              <p>Build,style and maintain different components of Mentorlst Platform.Working
-                closely with UI/UX team, front and backend developers to ensure the web app has an aesthetically
-                pleasing appearance and also advocating for web accessibility.
+            <p>Design, build and maintain the school website.
+              Configuring hardware and Software,setting up peripherals such as printers,projectors,
+              routers and providing support to computer network users.
+              Providing training to the learners and staff on the technological advances.
+              Draft and implement the ICT policy to ensure smooth flow of acquiring,returning and using
+              ICT resources.
               </p>
             </CardContent>
             <CardFooter className="flex flex-col">
-            <p className="font-semibold">Tech Stack</p>
+            <p className="font-semibold">Technologies used</p>
               <div className="flex gap-1 text-xs font-semibold text-sky-500 rounded-lg p-4">
-                <p>ReactJS / NextJS</p>
-                <p>Tailwind CSS</p>
-                <p>TypeScript</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>Windows OS</p>
+                <p>Microsoft 365</p>
               </div>
             </CardFooter>
           </Card>
-
+          <Link href="#" className="my-5 font-bold underline underline-offset-2 hover:text-sky-500">View Full Resume</Link>
+      </section>
+      <section className="">
+        <p className="my-10 font-bold text-2xl">Projects</p>
       </section>
       
       
