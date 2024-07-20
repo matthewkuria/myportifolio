@@ -15,6 +15,7 @@ export default function Home() {
         <Link href="/about" className="text-sky-500 hover:text-white">Read More...</Link>
       </div>
       
+      
     </main>
   );
 }
