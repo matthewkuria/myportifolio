@@ -8,13 +8,12 @@ const links = [
   {name: 'About',href: '/about'},
   { name: 'Experience', href: '/#experience' },
   { name: 'Projects', href: '/#projects'},
-  {name: 'Contact', href: '/contact'}
 ];
 export default function NavLinks() {
     const pathname = usePathname();
     return (
         <>
-              {links.map((link) => {
+      {links.map((link) => {
         return (
           <Link
             key={link.name}

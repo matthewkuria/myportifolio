@@ -64,11 +64,12 @@ export default function Home() {
               </div>
             </CardFooter>
           </Card>
-          <Link href="#" className="my-5 font-bold underline underline-offset-2 hover:text-sky-500">View Full Resume</Link>
+      <Link href="#" className="my-5 font-bold underline underline-offset-2 hover:text-sky-500">View Full Resume</Link>
       </section>
       <section id="projects" className="">
         <p className="my-10 font-bold text-2xl">Projects</p>
-        <Card className="my-4">
+        <Link href="https://mentorlst.com/">
+           <Card className="mt-4 hover:border-r-8">
           <CardHeader>
             <CardTitle className="text-sky-500">Mentorlst platform</CardTitle>
           </CardHeader>
@@ -89,12 +90,19 @@ export default function Home() {
             </div>
           </CardContent>
           <CardFooter>
-            <p className="">Skills</p>
+            <p className="">Skills:</p>
+            <div className="flex gap-1 text-xs font-semibold text-sky-500 rounded-lg p-4">
+                <p>ReactJS</p>
+                <p>Typescript</p>
+                <p>Tailwind CSS</p>
+              </div>
           </CardFooter>
         </Card>
-        <Card className="mt-4">
+        </Link>
+      <Link href="https://hodsmart.vercel.app/">
+        <Card className="mt-4 hover:border-r-8">
           <CardHeader>
-            <CardTitle className="text-sky-500">Hodsmart web app</CardTitle>
+            <CardTitle className="text-sky-500">Hodsmart dashboard app</CardTitle>
           </CardHeader>
           <CardContent className="flex flex-col items-center justify-center">
             <div className="image-div p-4">
@@ -106,17 +114,26 @@ export default function Home() {
               />
             </div>
             <div className="content-div">
-              <p>This is a web app that allows Head of Subject teachers to login,
+              <p>This is a dashboard app that allows Head of Subject teachers to login,
                 add,update or delete subjects & teachers in their department.After adding the teachers,
                 the HOD can allocate lessons paperlessly.
               </p>
             </div>
           </CardContent>
           <CardFooter>
-            <p className="">Skills</p>
+            <p className="">Skills:</p>
+            <div className="flex gap-1 text-xs font-semibold text-sky-500 rounded-lg p-4">
+                <p>NextJS</p>
+                <p>Typescript</p>
+                <p>Tailwind CSS</p>
+                <p>Google Firebase</p>
+                <p>ShadcnUI</p>
+              </div>
           </CardFooter>
-        </Card>
-        <Card className="mt-4">
+          </Card>
+          </Link>
+        <Link href="https://artsoko.netlify.app/">
+          <Card className="mt-4 hover:border-r-8">
           <CardHeader>
             <CardTitle className="text-sky-500">ArtSoko Website</CardTitle>
           </CardHeader>
@@ -130,16 +147,21 @@ export default function Home() {
               />
             </div>
             <div className="content-div">
-              <p>Mentorlst is platform that brings together mentors and mentees.
-                The platform allows users to  sign up,find mentor and connect
-                with professionals in your field.
+              <p>ArtSoko is platform that brings together artists and art customers.
+                The platform allows customers to  easily find art whereas the artists can
+                share their and market their art.
               </p>
             </div>
           </CardContent>
           <CardFooter>
             <p className="">Skills</p>
+            <div className="flex gap-1 text-xs font-semibold text-sky-500 rounded-lg p-4">
+                <p>ReactJS</p>
+                <p>Tailwind CSS</p>
+              </div>
           </CardFooter>
         </Card>
+        </Link>
       </section>
       
       
