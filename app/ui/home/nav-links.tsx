@@ -2,18 +2,24 @@
 import Link from "next/link";
 import clsx from 'clsx';
 import { usePathname } from "next/navigation";
-
+import {
+  UserIcon,
+  HomeIcon,
+  DocumentDuplicateIcon,
+  BriefcaseIcon,
+} from '@heroicons/react/24/outline';
 const links = [
-  { name: 'Home', href: '/' },
-  {name: 'About',href: '/about'},
-  { name: 'Experience', href: '/#experience' },
-  { name: 'Projects', href: '/#projects'},
+  { name: 'Home', href: '/', icon: HomeIcon },
+  {name: 'About',href: '/about', icon:UserIcon},
+  { name: 'Experience', href: '/#experience', icon:BriefcaseIcon },
+  { name: 'Projects', href: '/#projects', icon:DocumentDuplicateIcon},
 ];
 export default function NavLinks() {
     const pathname = usePathname();
     return (
         <>
-      {links.map((link) => {
+        {links.map((link) => {
+        const LinkIcon = link.icon;
         return (
           <Link
             key={link.name}
@@ -27,6 +33,7 @@ export default function NavLinks() {
 
             }
           >
+            <LinkIcon className="w-6" />
             <p className="hidden md:block">{link.name}</p>
           </Link>
         );
