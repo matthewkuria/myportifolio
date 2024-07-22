@@ -68,23 +68,77 @@ export default function Home() {
       </section>
       <section id="projects" className="">
         <p className="my-10 font-bold text-2xl">Projects</p>
-        <Card>
+        <Card className="my-4">
           <CardHeader>
-            <CardTitle>Mentorlst platform</CardTitle>
+            <CardTitle className="text-sky-500">Mentorlst platform</CardTitle>
           </CardHeader>
-          <CardContent>
-            <div className="image-div">
+          <CardContent className="flex flex-col items-center justify-center">
+            <div className="image-div p-4">
               <Image
                 src="/mentorlst.png"
-                width={100}
-                height={100}
+                width={200}
+                height={200}
                 alt="The mentorlst platform image"
               />
             </div>
             <div className="content-div">
-
+              <p>Mentorlst is platform that brings together mentors and mentees.
+                The platform allows users to  sign up,find mentor and connect
+                with professionals in your field.
+              </p>
             </div>
           </CardContent>
+          <CardFooter>
+            <p className="">Skills</p>
+          </CardFooter>
+        </Card>
+        <Card className="mt-4">
+          <CardHeader>
+            <CardTitle className="text-sky-500">Hodsmart web app</CardTitle>
+          </CardHeader>
+          <CardContent className="flex flex-col items-center justify-center">
+            <div className="image-div p-4">
+              <Image
+                src="/hodsmart.png"
+                width={200}
+                height={200}
+                alt="The hodsmart platform image"
+              />
+            </div>
+            <div className="content-div">
+              <p>This is a web app that allows Head of Subject teachers to login,
+                add,update or delete subjects & teachers in their department.After adding the teachers,
+                the HOD can allocate lessons paperlessly.
+              </p>
+            </div>
+          </CardContent>
+          <CardFooter>
+            <p className="">Skills</p>
+          </CardFooter>
+        </Card>
+        <Card className="mt-4">
+          <CardHeader>
+            <CardTitle className="text-sky-500">ArtSoko Website</CardTitle>
+          </CardHeader>
+          <CardContent className="flex flex-col items-center justify-center">
+            <div className="image-div p-4">
+              <Image
+                src="/artsoko.png"
+                width={200}
+                height={200}
+                alt="The artsoko platform image"
+              />
+            </div>
+            <div className="content-div">
+              <p>Mentorlst is platform that brings together mentors and mentees.
+                The platform allows users to  sign up,find mentor and connect
+                with professionals in your field.
+              </p>
+            </div>
+          </CardContent>
+          <CardFooter>
+            <p className="">Skills</p>
+          </CardFooter>
         </Card>
       </section>
       
