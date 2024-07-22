@@ -10,7 +10,9 @@ export default function SideBar() {
                     coupled with back end hands-on craftmanship.
                 </p>
             </div>
-            <NavLinks />
+            <div className=" NAV_LINKS flex md:flex-col">
+                 <NavLinks />
+            </div>           
         </main>
         
     )
