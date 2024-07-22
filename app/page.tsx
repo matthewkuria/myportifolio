@@ -66,8 +66,26 @@ export default function Home() {
           </Card>
           <Link href="#" className="my-5 font-bold underline underline-offset-2 hover:text-sky-500">View Full Resume</Link>
       </section>
-      <section className="">
+      <section id="projects" className="">
         <p className="my-10 font-bold text-2xl">Projects</p>
+        <Card>
+          <CardHeader>
+            <CardTitle>Mentorlst platform</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="image-div">
+              <Image
+                src="/mentorlst.png"
+                width={100}
+                height={100}
+                alt="The mentorlst platform image"
+              />
+            </div>
+            <div className="content-div">
+
+            </div>
+          </CardContent>
+        </Card>
       </section>
       
       
