@@ -68,6 +68,38 @@ export default function Home() {
       </section>
       <section id="projects" className="">
         <p className="my-10 font-bold text-2xl">Projects</p>
+        <Link href="https://github.com/matthewkuria/Eshop">
+           <Card className="mt-4 hover:border-r-8">
+          <CardHeader>
+            <CardTitle className="text-sky-500">Eshop E-commerce</CardTitle>
+          </CardHeader>
+          <CardContent className="flex flex-col items-center justify-center">
+            <div className="image-div p-4">
+              <Image
+                src="/eshop.png"
+                width={200}
+                height={200}
+                alt="The mentorlst platform image"
+              />
+            </div>
+            <div className="content-div">
+                <p>Eshop is a Django web app that allows admin to add, update and remove
+                  products,categories and prices through the admin panel.Users can sign up and become 
+                  customers when the login.Customers can add or remove products to cart and finally checkout
+                  the cart items.
+              </p>
+            </div>
+          </CardContent>
+          <CardFooter>
+            <p className="">Skills:</p>
+            <div className="flex gap-1 text-xs font-semibold text-sky-500 rounded-lg p-4">
+                <p>Django</p>
+                <p>Bootstrap</p>
+                <p>PostgreSQL</p>
+              </div>
+          </CardFooter>
+        </Card>
+        </Link>
         <Link href="https://mentorlst.com/">
            <Card className="mt-4 hover:border-r-8">
           <CardHeader>
