@@ -85,7 +85,7 @@ export default function Home() {
             <div className="content-div">
                 <p>Eshop is a Django web app that allows admin to add, update and remove
                   products,categories and prices through the admin panel.Users can sign up and become 
-                  customers when the login.Customers can add or remove products to cart and finally checkout
+                  customers when they login.Customers can add or remove products to cart and finally checkout
                   the cart items.
               </p>
             </div>
@@ -194,6 +194,7 @@ export default function Home() {
           </CardFooter>
         </Card>
         </Link>
+        <Link className="" href="">View More Projects</Link>
       </section>
       
       
