@@ -15,7 +15,7 @@ import Link from "next/link"
                         live: "https://talkwaves.netlify.app/",
                         github: "https://github.com/matthewkuria/talkwaves",
                         description: "This a website that helps people overcome depression by sharing Podcasts and testimonials of people who overcame depression.",
-                        image:""
+                       
                     },
                     {
                         project: "INV002",
