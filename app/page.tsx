@@ -194,7 +194,7 @@ export default function Home() {
           </CardFooter>
         </Card>
         </Link>
-        <Link className="" href="">View More Projects</Link>
+        <Link className="" href="/projects">View More Projects</Link>
       </section>
       
       
