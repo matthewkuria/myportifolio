@@ -1,4 +1,4 @@
- import {Table,TableBody,TableCaption,TableCell,TableHead,TableHeader,TableRow} from "@/components/ui/table"
+ import {Table,TableBody,TableCaption,TableCell,TableHead,TableHeader,TableRow} from "@/app/components/ui/table"
 import Link from "next/link"
 
 const projects = [

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import SideBar from "./ui/home/sidebar";
 import Link from "next/link";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/app/components/ui/card";
 
 export default function Home() {  
   return (
