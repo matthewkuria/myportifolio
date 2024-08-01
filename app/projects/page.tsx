@@ -1,59 +1,51 @@
- import {   Table,
-            TableBody,
-            TableCaption,
-            TableCell,
-            TableFooter,
-            TableHead,
-            TableHeader,
-            TableRow,
-                    } from "@/components/ui/table"
+ import {Table,TableBody,TableCaption,TableCell,TableHead,TableHeader,TableRow} from "@/components/ui/table"
 import Link from "next/link"
 
-                    const projects = [
-                    {
-                        project: "Talk Waves",
-                        live: "https://talkwaves.netlify.app/",
-                        github: "https://github.com/matthewkuria/talkwaves",
-                        description: "This a website that helps people overcome depression by sharing Podcasts and testimonials of people who overcame depression.",
-                       
-                    },
-                    {
-                        project: "INV002",
-                        live: "Pending",
-                        github: "$150.00",
-                        description: "PayPal",
-                    },
-                    {
-                        project: "INV003",
-                        live: "Unpaid",
-                        github: "$350.00",
-                        description: "Bank Transfer",
-                    },
-                    {
-                        project: "INV004",
-                        live: "Paid",
-                        github: "$450.00",
-                        description: "Credit Card",
-                    },
-                    {
-                        project: "INV005",
-                        live: "Paid",
-                        github: "$550.00",
-                        description: "PayPal",
-                    },
-                    {
-                        project: "INV006",
-                        live: "Pending",
-                        github: "$200.00",
-                        description: "Bank Transfer",
-                    },
-                    {
-                        project: "INV007",
-                        live: "Unpaid",
-                        github: "$300.00",
-                        description: "Credit Card",
-                    },
-                    ]
+const projects = [
+    {
+        project: "Talk Waves",
+        live: "https://talkwaves.netlify.app/",
+        github: "https://github.com/matthewkuria/talkwaves",
+        description: "This a website that helps people overcome depression by sharing Podcasts and testimonials of people who overcame depression.",
+        
+    },
+    {
+        project: "INV002",
+        live: "Pending",
+        github: "$150.00",
+        description: "PayPal",
+    },
+    {
+        project: "INV003",
+        live: "Unpaid",
+        github: "$350.00",
+        description: "Bank Transfer",
+    },
+    {
+        project: "INV004",
+        live: "Paid",
+        github: "$450.00",
+        description: "Credit Card",
+    },
+    {
+        project: "INV005",
+        live: "Paid",
+        github: "$550.00",
+        description: "PayPal",
+    },
+    {
+        project: "INV006",
+        live: "Pending",
+        github: "$200.00",
+        description: "Bank Transfer",
+    },
+    {
+        project: "INV007",
+        live: "Unpaid",
+        github: "$300.00",
+        description: "Credit Card",
+    },
+]
 export default function Page() {
     return (
         <main className="mx-auto p-24">
