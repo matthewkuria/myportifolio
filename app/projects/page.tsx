@@ -1,19 +1,21 @@
- import {           Table,
-                    TableBody,
-                    TableCaption,
-                    TableCell,
-                    TableFooter,
-                    TableHead,
-                    TableHeader,
-                    TableRow,
+ import {   Table,
+            TableBody,
+            TableCaption,
+            TableCell,
+            TableFooter,
+            TableHead,
+            TableHeader,
+            TableRow,
                     } from "@/components/ui/table"
+import Link from "next/link"
 
                     const projects = [
                     {
-                        project: "INV001",
-                        live: "Paid",
-                        github: "$250.00",
-                        description: "Credit Card",
+                        project: "Talk Waves",
+                        live: "https://talkwaves.netlify.app/",
+                        github: "https://github.com/matthewkuria/talkwaves",
+                        description: "This a website that helps people overcome depression by sharing Podcasts and testimonials of people who overcame depression.",
+                        image:""
                     },
                     {
                         project: "INV002",
@@ -54,7 +56,7 @@
                     ]
 export default function Page() {
     return (
-        <main className="">
+        <main className="mx-auto p-24">
             <Table>
                         <TableCaption>A list of my projects.</TableCaption>
                         <TableHeader>
@@ -63,15 +65,16 @@ export default function Page() {
                             <TableHead>Live Link</TableHead>
                             <TableHead>Github</TableHead>
                             <TableHead className="text-right">Description</TableHead>
+                            <TableHead className="text-right">Image Thumbnail</TableHead>
                             </TableRow>
                         </TableHeader>
                         <TableBody>
                             {projects.map((project) => (
                             <TableRow key={project.project}>
                                 <TableCell className="font-medium">{project.project}</TableCell>
-                                <TableCell>{project.live}</TableCell>
-                                <TableCell>{project.description}</TableCell>
-                                <TableCell className="text-right">{project.github}</TableCell>
+                                <TableCell><Link className="underline hover:text-green-500" href={project.live}>link</Link></TableCell>
+                                <TableCell><Link className="underline hover:text-blue-500" href={project.github}>link</Link></TableCell>
+                                <TableCell className="text-xs text-right max-w-sm">{project.description}</TableCell>
                             </TableRow>
                             ))}
                         </TableBody>                        
