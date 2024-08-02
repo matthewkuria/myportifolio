@@ -50,28 +50,27 @@ export default function Page() {
     return (
         <main className="mx-auto p-24">
             <Table>
-                        <TableCaption>A list of my projects.</TableCaption>
-                        <TableHeader>
-                            <TableRow>
-                            <TableHead className="w-[100px]">Project</TableHead>
-                            <TableHead>Live Link</TableHead>
-                            <TableHead>Github</TableHead>
-                            <TableHead className="text-right">Description</TableHead>
-                            <TableHead className="text-right">Image Thumbnail</TableHead>
-                            </TableRow>
-                        </TableHeader>
-                        <TableBody>
-                            {projects.map((project) => (
-                            <TableRow key={project.project}>
-                                <TableCell className="font-medium">{project.project}</TableCell>
-                                <TableCell><Link className="underline hover:text-green-500" href={project.live}>link</Link></TableCell>
-                                <TableCell><Link className="underline hover:text-blue-500" href={project.github}>link</Link></TableCell>
-                                <TableCell className="text-xs text-right max-w-sm">{project.description}</TableCell>
-                            </TableRow>
-                            ))}
-                        </TableBody>                        
-                        </Table>                   
-
+                <TableCaption>A list of my projects.</TableCaption>
+                <TableHeader>
+                    <TableRow>
+                    <TableHead className="w-[100px]">Project</TableHead>
+                    <TableHead>Live Link</TableHead>
+                    <TableHead>Github</TableHead>
+                    <TableHead className="text-right">Description</TableHead>
+                    <TableHead className="text-right">Image Thumbnail</TableHead>
+                    </TableRow>
+                </TableHeader>
+                <TableBody>
+                    {projects.map((project) => (
+                    <TableRow key={project.project}>
+                        <TableCell className="font-medium">{project.project}</TableCell>
+                        <TableCell><Link className="underline hover:text-green-500" href={project.live}>link</Link></TableCell>
+                        <TableCell><Link className="underline hover:text-blue-500" href={project.github}>link</Link></TableCell>
+                        <TableCell className="text-xs text-right max-w-sm">{project.description}</TableCell>
+                    </TableRow>
+                    ))}
+                </TableBody>                        
+            </Table>
         </main>
     )
 }
