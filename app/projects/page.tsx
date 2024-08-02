@@ -10,41 +10,12 @@ const projects = [
         
     },
     {
-        project: "INV002",
-        live: "Pending",
-        github: "$150.00",
-        description: "PayPal",
+        project: "Finance Logger",
+        live: "https://fynancelogger.netlify.app/",
+        github: "https://github.com/matthewkuria/finance-logger",
+        description: "This a project that allows users to great either an invoice for a service offered or a payment receipt for those who are owed.",
     },
-    {
-        project: "INV003",
-        live: "Unpaid",
-        github: "$350.00",
-        description: "Bank Transfer",
-    },
-    {
-        project: "INV004",
-        live: "Paid",
-        github: "$450.00",
-        description: "Credit Card",
-    },
-    {
-        project: "INV005",
-        live: "Paid",
-        github: "$550.00",
-        description: "PayPal",
-    },
-    {
-        project: "INV006",
-        live: "Pending",
-        github: "$200.00",
-        description: "Bank Transfer",
-    },
-    {
-        project: "INV007",
-        live: "Unpaid",
-        github: "$300.00",
-        description: "Credit Card",
-    },
+    
 ]
 export default function Page() {
     return (
@@ -54,10 +25,10 @@ export default function Page() {
                 <TableHeader>
                     <TableRow>
                     <TableHead className="w-[100px]">Project</TableHead>
-                    <TableHead>Live Link</TableHead>
+                    <TableHead>Live</TableHead>
                     <TableHead>Github</TableHead>
                     <TableHead className="text-right">Description</TableHead>
-                    <TableHead className="text-right">Image Thumbnail</TableHead>
+                    <TableHead className="text-right">Thumbnail</TableHead>
                     </TableRow>
                 </TableHeader>
                 <TableBody>

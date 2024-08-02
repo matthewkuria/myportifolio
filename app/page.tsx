@@ -194,7 +194,7 @@ export default function Home() {
           </CardFooter>
         </Card>
         </Link>
-        <Link className="" href="/projects">View More Projects</Link>
+        <Link className="hover:text-blue-500 underline" href="/projects">View More Projects</Link>
       </section>
       
       
