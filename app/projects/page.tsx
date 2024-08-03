@@ -15,6 +15,12 @@ const projects = [
         github: "https://github.com/matthewkuria/finance-logger",
         description: "This a project that allows users to great either an invoice for a service offered or a payment receipt for those who are owed.",
     },
+    {
+        project: "Insure Landing page",
+        live: "https://hotfix-insure.netlify.app/",
+        github: "",
+        description:""
+    }
     
 ]
 export default function Page() {
