@@ -18,8 +18,8 @@ const projects = [
     {
         project: "Insure Landing page",
         live: "https://hotfix-insure.netlify.app/",
-        github: "",
-        description:""
+        github: "https://github.com/matthewkuria/z-Insure",
+        description:"This is a landing page for an insurance company that is display the services offered."
     }
     
 ]
