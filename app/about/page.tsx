@@ -2,7 +2,7 @@
 import Image from "next/image"
 export default function Page() {
     return (
-        <main className="flex m-4 h-screen flex-col md:justify-around md:flex md:flex-row p-4 md:p-0 max-w-md">
+        <main className="flex m-4 h-screen flex-col md:justify-around md:flex md:flex-row p-4 md:p-1 max-w-md">
             <div className="intro md:w-full">
                 <h4 className="font-semibold text-2xl">Hey! I am Matthew</h4>
                 <p className="my-2">I am Full Stack Developer who started as a graphics Designer then as
@@ -26,14 +26,14 @@ export default function Page() {
                     alt="matthew kuria image for mobile"
                     width={500}
                     height={500}
-                    className="border shadow-sm rounded-md shadow-white md:hidden block"
+                    className="border border-yellow-500 rounded-md shadow-white md:hidden block"
                 />
                 <Image
                     src="/matt.jpg"
                     alt="matthew kuria image for desktop"
                     width="250"
                     height="100"
-                    className="shadow-sm rounded-md hidden md:block"
+                    className="border border-l-4 border-t-0 border-b-4 border-r-0 border-yellow-500 shadow-2xl rounded-md hidden md:block"
                 />
             </div>
         </main>
