@@ -7,12 +7,15 @@ import {
   HomeIcon,
   DocumentDuplicateIcon,
   BriefcaseIcon,
+  InformationCircleIcon,
 } from '@heroicons/react/24/outline';
 const links = [
   { name: 'Home', href: '/', icon: HomeIcon },
-  {name: 'About',href: '/about', icon:UserIcon},
-  { name: 'Experience', href: '/#experience', icon:BriefcaseIcon },
-  { name: 'Projects', href: '/#projects', icon:DocumentDuplicateIcon},
+  { name: 'About', href: '/about', icon: InformationCircleIcon },
+  { name: 'Projects', href: '/projects', icon:DocumentDuplicateIcon},
+  { name: 'Experience', href: '/experience', icon: BriefcaseIcon },
+  {name: 'Contact', href: '/contact', icon: UserIcon}
+  
 ];
 export default function NavLinks() {
     const pathname = usePathname();
@@ -25,9 +28,9 @@ export default function NavLinks() {
             key={link.name}
             href={link.href}
             className={clsx(
-              "flex  h-[30px] grow items-center justify-center gap-2 rounded-md  p-1 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3",
+              "flex  h-[30px] grow items-center justify-center gap-2 rounded-md  p-1 text-sm font-medium hover:bg-none hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3",
               {
-                'bg-sky-500 text-white ': pathname === link.href,
+                'bg-sky-500 text-yellow-700 ': pathname === link.href,
               }
             )
 

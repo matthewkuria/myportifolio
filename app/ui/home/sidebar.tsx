@@ -1,6 +1,6 @@
 import Link from "next/link";
 import NavLinks from "./nav-links";
-import { bebas_neue, redHatText } from "@/app/fonts/fonts";
+import { bebas_neue, redHatText, modak } from "@/app/fonts/fonts";
 
 export default function SideBar() {
     return (
@@ -8,7 +8,8 @@ export default function SideBar() {
             <div className="max-w-96 md:max-w-sm">
                 <h1 className="text-4xl mt-10 font-bold">Matthew Kuria</h1>
                 <p className="my-2 text-2xl text-yellow-400 font-bold">Software Developer</p>
-                <p className={`${redHatText.className}`}>I have a vast experience building pixel-perfect and responsive User Interfaces,
+                <p className={`${redHatText.className} my-4`}>
+                    I have a vast experience building pixel-perfect and responsive User Interfaces,
                     coupled with back end hands-on craftmanship.
                 </p>
             </div>
