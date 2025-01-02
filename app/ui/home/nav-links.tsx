@@ -9,10 +9,11 @@ import {
   BriefcaseIcon,
   InformationCircleIcon,
 } from '@heroicons/react/24/outline';
+import { HammerIcon } from "lucide-react";
 const links = [
   { name: 'Home', href: '/', icon: HomeIcon },
   { name: 'About', href: '/about', icon: InformationCircleIcon },
-  { name: 'Projects', href: '/projects', icon:DocumentDuplicateIcon},
+  { name: 'Projects', href: '/projects', icon: HammerIcon},
   { name: 'Experience', href: '/experience', icon: BriefcaseIcon },
   {name: 'Contact', href: '/contact', icon: UserIcon}
   
