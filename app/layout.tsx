@@ -19,10 +19,10 @@ export default function RootLayout({
     <html lang="en">      
       <body className={inter.className}>
         <div className="flex flex-col md:flex md:flex-row">
-          <div className="px-2 md:fixed">
+          <div className="px-1 md:fixed">
             <SideBar />            
           </div>
-          <div className="text-white flex justify-center mx-1 md:ml-96">
+          <div className="text-white flex justify-center mx-1 md:ml-[400px] md:mr-2 ">
             {children}
           </div>
         </div>
