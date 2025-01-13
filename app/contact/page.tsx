@@ -1,22 +1,29 @@
+import Link from 'next/link';
 export default function Page() {
     return (
         <main className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 items-baseline">
              <aside className="flex flex-col items-center justify-center p-4 bg-black">
                 <h2 className="text-xl font-bold mb-4 text-white">Follow Me</h2>
                 <ul className="space-y-2">
-                    <li>
-                        <a href="https://twitter.com/yourprofile" className="text-yellow-500 hover:underline">Twitter</a>
-                    </li>
-                    <li>
-                        <a href="https://linkedin.com/in/yourprofile" className="text-yellow-500 hover:underline">LinkedIn</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/yourprofile" className="text-yellow-500 hover:underline">GitHub</a>
-                    </li>
+                <li>
+                    <Link href="https://twitter.com/matthew_kuria" className="text-yellow-500 hover:underline">
+                        Twitter
+                    </Link>
+                </li>
+                <li>
+                    <Link href="https://linkedin.com/in/matthew-kuria" className="text-yellow-500 hover:underline">
+                        LinkedIn
+                    </Link>
+                </li>
+                <li>
+                    <Link href="https://github.com/matthewkuria" className="text-yellow-500 hover:underline">
+                        GitHub
+                    </Link>
+                </li>
                 </ul>
             </aside>
             <section className="shadow-md rounded-lg p-8 max-w-lg w-full bg-black">
-                <h1 className="text-2xl font-bold mb-6 text-center text-yellow-500">Contact Me</h1>
+                <h1 className="text-2xl font-bold mb-6 text-center">Contact Me</h1>
                 <form className="space-y-4">
                     <div>
                         <label htmlFor="name" className="block text-sm font-medium text-white">Name</label>
