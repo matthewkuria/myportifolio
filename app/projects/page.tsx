@@ -5,24 +5,11 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { useEffect, useRef } from "react";
 
 export default function Page() { 
-    const scrollContainerRef = useRef<HTMLDivElement>(null);
-   useEffect(() => {
-    const scrollContainer = scrollContainerRef.current;
-    if (scrollContainer) {
-      const scroll = () => {
-        scrollContainer.scrollBy({ top: 1, behavior: 'smooth' });
-        if (scrollContainer.scrollTop + scrollContainer.clientHeight >= scrollContainer.scrollHeight) {
-          scrollContainer.scrollTop = 0;
-        }
-      };
-      const intervalId = setInterval(scroll, 5); 
-      return () => clearInterval(intervalId);
-    }
-  }, []);
+  
     return (
         <section id="projects" className="flex flex-col items-center justify-center">
         <p className="my-10 font-bold text-2xl">Projects</p>
-        <div ref={scrollContainerRef} className="cards-container overflow-y-scroll p-2">
+        <div  className="cards-container overflow-y-scroll p-2">
             <Link href="https://github.com/matthewkuria/Eshop">
            <Card className="mt-4 hover:border-r-4">
           <CardHeader>

@@ -6,7 +6,7 @@ import SideBar from "./ui/home/sidebar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Matthew Kuria",
+  title: "Matthew | Portfolio",
   description: "Developed and maintained by Matthew Kuria",
 };
 
