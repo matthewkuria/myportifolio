@@ -6,7 +6,13 @@
   background-color: whitesmoke;
   color: black;
 }
-
+.intro{
+  background: url('/tech_bg.webp') no-repeat center cover;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 500px;
+}
 .cards-container {
   max-height: 70vh; /* Adjust the height as needed */
   overflow-x: scroll;

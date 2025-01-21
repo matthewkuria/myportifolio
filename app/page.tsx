@@ -4,8 +4,8 @@ import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle }
 export default function Home() { 
   
   return (
-    <main className="flex flex-col md:flex md:justify-center md:items-center p-5">
-      <div className="intro">
+    <main className="intro flex flex-col md:flex md:justify-center md:items-center p-5">
+      <div className=" flex flex-col items-center justify-center h-full">
         <h4 className="font-semibold text-2xl">Hey! There</h4>
         <p className="my-2">I am a Software Developer who has a passion
           for building web applications that are user-friendly and accessible.
