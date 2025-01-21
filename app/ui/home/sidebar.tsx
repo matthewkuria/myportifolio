@@ -4,7 +4,7 @@ import { bebas_neue, redHatText, modak } from "@/app/fonts/fonts";
 
 export default function SideBar() {
     return (
-        <main className="text-white flex h-full flex-col px-2 py-4 md:px-2">            
+        <main className=" flex h-full flex-col px-2 py-4 md:px-2">            
             <div className="max-w-96 md:max-w-sm">
                 <h1 className="text-4xl mt-10 font-bold">Matthew Kuria</h1>
                 <p className="my-2 text-2xl text-yellow-400 font-bold">Software Developer</p>

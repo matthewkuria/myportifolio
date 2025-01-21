@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 :root {
-  background-color: #02050c;
+  background-color: whitesmoke;
+  color: black;
 }
 
 .cards-container {
