@@ -22,7 +22,7 @@ export default function RootLayout({
           <div className="px-1 md:fixed">
             <SideBar />            
           </div>
-          <div className="text-white flex justify-center mx-1 md:ml-[400px] md:mr-2 ">
+          <div className="flex justify-center mx-1 md:ml-[400px] md:mr-2 ">
             {children}
           </div>
         </div>
