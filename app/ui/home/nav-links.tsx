@@ -15,7 +15,6 @@ const links = [
   { name: 'About', href: '/about', icon: InformationCircleIcon },
   { name: 'Projects', href: '/projects', icon: HammerIcon},
   { name: 'Experience', href: '/experience', icon: BriefcaseIcon },
-  {name: 'Contact', href: '/contact', icon: UserIcon}
   
 ];
 export default function NavLinks() {
