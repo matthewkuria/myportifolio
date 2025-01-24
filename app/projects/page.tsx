@@ -24,10 +24,13 @@ export default function Page() {
               />
             </div>
             <div className="content-div">
-                <p>Eshop is a Django web app that allows admin to add, update and remove
-                  products,categories and prices through the admin panel.Users can sign up and become 
-                  customers when they login.Customers can add or remove products to cart and finally checkout
-                  the cart items.
+                <p>This is a multi-page website that allows users to explore the space.
+                  The website has a home page which a nice feeling of space. Other pages include:-
+                  <ul>
+                    <li>Destination <span className="text-yellow-600 text-sm">Moon, Mars, Europa & Titan</span></li>
+                    <li>Crew</li>
+                    <li>Technology</li>
+                  </ul>
               </p>
             </div>
           </CardContent>
