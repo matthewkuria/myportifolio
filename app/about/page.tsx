@@ -5,7 +5,7 @@ export default function Page() {
         <main className="flex m-4 h-screen flex-col md:justify-around md:flex md:flex-row p-4 md:p-1 max-w-md ">
             <div className=" md:w-full">
                 <h4 className="font-semibold text-2xl">About Me</h4>
-                <p className="my-2">I am Full Stack Developer who started as a graphics Designer then as
+                <p className="my-2">I am Software developer who started as a graphics Designer then as
                 an IT specialist in a certain organisation where I built my first website for that organisation.While still at
                 that position I crafted my way to upskill the Front End development technologies and I
                 got an internship where together with front end team we built great solutions.

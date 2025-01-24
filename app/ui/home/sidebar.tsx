@@ -7,7 +7,7 @@ export default function SideBar() {
         <main className=" flex h-full flex-col px-2 py-4 md:px-2">            
             <div className="max-w-96 md:max-w-sm">
                 <h1 className="text-4xl mt-10 font-bold">Matthew Kuria</h1>
-                <p className="my-2 text-2xl text-yellow-400 font-bold">Software Developer</p>
+                <p className="my-2 text-2xl text-yellow-400 font-bold">Front-End Developer</p>
                 <p className={`${redHatText.className} my-4`}>
                     I have a vast experience building pixel-perfect and responsive User Interfaces,
                     coupled with back end hands-on craftmanship.

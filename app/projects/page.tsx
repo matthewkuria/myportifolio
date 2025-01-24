@@ -26,12 +26,12 @@ export default function Page() {
             <div className="content-div">
                 <p>This is a multi-page website that allows users to explore the space.
                   The website has a home page which a nice feeling of space. Other pages include:-
-                  <ol>
+                </p>
+                <ol>
                     <li>Destination <span className="text-yellow-600 text-sm">Moon, Mars, Europa & Titan</span></li>
                     <li>Crew</li>
                     <li>Technology</li>
-                  </ol>
-              </p>
+                </ol>
             </div>
           </CardContent>
           <CardFooter className="flex justify-between">
