@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { useEffect, useRef } from "react";
 
 export default function Page() { 
   
@@ -10,18 +9,17 @@ export default function Page() {
         <section id="projects" className="flex flex-col items-center justify-center">
         <p className="my-10 font-bold text-2xl">Projects</p>
         <div  className="cards-container overflow-y-scroll p-2">
-            <Link href="https://github.com/matthewkuria/Eshop">
            <Card className="mt-4 hover:border-r-4">
           <CardHeader>
-            <CardTitle className="text-yellow-500">Eshop E-commerce</CardTitle>
+            <CardTitle className="text-yellow-500">Space Tourism Website</CardTitle>
           </CardHeader>
           <CardContent className="flex flex-col items-center justify-center">
             <div className="image-div p-4">
               <Image
-                src="/eshop.png"
-                width={500}
+                src="/space-tourism.jpg"
+                width={600}
                 height={500}
-                alt="The mentorlst platform image"
+                alt="The space tourism website image"
                 className="project-image"
               />
             </div>
@@ -42,7 +40,6 @@ export default function Page() {
               </div>
           </CardFooter>
         </Card>
-        </Link>
         <Link href="https://mentorlst.com/">
            <Card className="mt-4 hover:border-r-8">
           <CardHeader>
