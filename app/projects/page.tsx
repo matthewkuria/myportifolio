@@ -37,9 +37,9 @@ export default function Page() {
           <CardFooter className="flex justify-between">
               <div className="flex gap-1 text-xs font-semibold text-yellow-500 rounded-lg p-4">
                 <p className="text-black font-bold">Skills:</p>
-                <p>Django</p>
-                <p>Bootstrap</p>
-                <p>PostgreSQL</p>
+                <p>NextJS</p>
+                <p>Tailwind CSS</p>
+                <p>Typescript</p>
               </div>
               <div className="">
                 <Link href="https://space-tourism-website-matt.vercel.app/"
