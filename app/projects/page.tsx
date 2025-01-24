@@ -26,20 +26,26 @@ export default function Page() {
             <div className="content-div">
                 <p>This is a multi-page website that allows users to explore the space.
                   The website has a home page which a nice feeling of space. Other pages include:-
-                  <ul>
+                  <ol>
                     <li>Destination <span className="text-yellow-600 text-sm">Moon, Mars, Europa & Titan</span></li>
                     <li>Crew</li>
                     <li>Technology</li>
-                  </ul>
+                  </ol>
               </p>
             </div>
           </CardContent>
-          <CardFooter>
-            <p className="">Skills:</p>
-            <div className="flex gap-1 text-xs font-semibold text-yellow-500 rounded-lg p-4">
+          <CardFooter className="flex justify-between">
+              <div className="flex gap-1 text-xs font-semibold text-yellow-500 rounded-lg p-4">
+                <p className="text-black font-bold">Skills:</p>
                 <p>Django</p>
                 <p>Bootstrap</p>
                 <p>PostgreSQL</p>
+              </div>
+              <div className="">
+                <Link href="https://space-tourism-website-matt.vercel.app/"
+                  className="bg-yellow-500 text-white p-2 rounded-lg hover:bg-yellow-600">
+                  Visit site
+                </Link>
               </div>
           </CardFooter>
         </Card>
