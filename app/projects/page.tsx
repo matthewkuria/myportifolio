@@ -49,39 +49,7 @@ export default function Page() {
               </div>
           </CardFooter>
         </Card>
-        <Link href="https://mentorlst.com/">
-           <Card className="mt-4 hover:border-r-8">
-          <CardHeader>
-            <CardTitle className="text-yellow-500">Mentorlst platform</CardTitle>
-          </CardHeader>
-          <CardContent className="flex flex-col items-center justify-center">
-            <div className="image-div p-4">
-              <Image
-                src="/mentorlst.png"
-                width={500}
-                height={500}
-                alt="The mentorlst platform image"
-                className="project-image"
-              />
-            </div>
-            <div className="content-div">
-              <p>Mentorlst is platform that brings together mentors and mentees.
-                The platform allows users to  sign up,find mentor and connect
-                with professionals in your field.
-              </p>
-            </div>
-          </CardContent>
-          <CardFooter>
-            <p className="">Skills:</p>
-            <div className="flex gap-1 text-xs font-semibold text-yellow-500 rounded-lg p-4">
-                <p>ReactJS</p>
-                <p>Typescript</p>
-                <p>Tailwind CSS</p>
-              </div>
-          </CardFooter>
-        </Card>
-        </Link>
-      <Link href="https://hodsmart.vercel.app/">
+        {/* HOD Smart Dashboard app */}
         <Card className="mt-4 hover:border-r-8">
           <CardHeader>
             <CardTitle className="text-yellow-500">Hodsmart dashboard app</CardTitle>
@@ -90,8 +58,8 @@ export default function Page() {
             <div className="image-div p-4">
               <Image
                 src="/hodsmart.png"
-                width={500}
-                height={500}
+                width={600}
+                height={600}
                 alt="The hodsmart platform image"
               />
             </div>
@@ -102,18 +70,23 @@ export default function Page() {
               </p>
             </div>
           </CardContent>
-          <CardFooter>
-            <p className="">Skills:</p>
+          <CardFooter className="flex justify-between">
             <div className="flex gap-1 text-xs font-semibold text-yellow-500 rounded-lg p-4">
+                <p className="text-black font-bold">Skills:</p>
                 <p>NextJS</p>
                 <p>Typescript</p>
                 <p>Tailwind CSS</p>
                 <p>Google Firebase</p>
                 <p>ShadcnUI</p>
+            </div>
+             <div className="">
+                <Link href="https://hodsmart.vercel.app/"
+                  className="bg-yellow-500 text-white p-2 rounded-lg hover:bg-yellow-600">
+                  Visit site
+                </Link>
               </div>
           </CardFooter>
           </Card>
-          </Link>
         <Link href="https://artsoko.netlify.app/">
           <Card className="mt-4 hover:border-r-8">
           <CardHeader>
