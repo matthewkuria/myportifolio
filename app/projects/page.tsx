@@ -88,7 +88,7 @@ export default function Page() {
           </CardFooter>
           </Card>
           {/* Art Soko */}
-          <Card className="mt-4 hover:border-r-8">
+          {/* <Card className="mt-4 hover:border-r-8">
           <CardHeader>
             <CardTitle className="text-yellow-500">ArtSoko Website</CardTitle>
           </CardHeader>
@@ -121,7 +121,7 @@ export default function Page() {
                 </Link>
               </div>
           </CardFooter>
-        </Card>
+        </Card> */}
           {/* Mentorlist Platform */}
           <Card className="mt-4 hover:border-r-8">
           <CardHeader>
