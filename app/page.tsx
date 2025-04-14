@@ -7,35 +7,65 @@ export default function Home() {
   return (
     <main className="intro text-white bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col  md:flex md:justify-start md:items-center p-5 min-h-[60vh] md:min-h-[100vh]">
       <div className="text-left">
-        <h1 className="font-semibold text-4xl">Welcome to my portfolio</h1>
+        <h1 className="font-semibold text-2xl md:text-4xl">Welcome to my portfolio</h1>
         <p className="my-2">I am a Software Developer who is passionate about building web applications that are user-friendly and accessible.</p>
         <Link href="/about" className="text-yellow-500 hover:text-white">Read More...</Link>
         <h2 className="font-semibold text-2xl my-4">My Skills</h2>
-        <Carousel
-      opts={{
-        align: "start",
-      }}
-      className="w-full max-w-sm"
-    >
-      <CarouselContent>
-        {Array.from({ length: 5 }).map((_, index) => (
-          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-            <div className="p-1">
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <span className="text-3xl font-semibold">{index + 1}</span>
-                </CardContent>
-              </Card>
-            </div>
-          </CarouselItem>
-        ))}
-      </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
-    </Carousel>
+        {/* Carousel of skills */}
+        <aside className="flex items-center justify-center  ">
+          <Carousel
+            opts={{
+              align: "center",
+            }}
+            className="w-full max-w-sm md:max-w-md lg:max-w-md"
+          >
+            <CarouselContent>
+              {["Next.js", "TailwindCSS", "React", "TypeScript", "JavaScript"].map((skill, index) => (
+                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+              <div className="p-1">
+                <Card>
+                  <CardContent className="flex aspect-square items-center justify-center p-2">
+                <div className="flex flex-col items-center">
+                  {skill === "Next.js" && (
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.385.6.111.793-.26.793-.577 0-.285-.011-1.04-.017-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.744.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.998.108-.775.418-1.305.762-1.605-2.665-.305-5.467-1.332-5.467-5.93 0-1.31.467-2.382 1.235-3.222-.123-.303-.535-1.523.117-3.176 0 0 1.007-.322 3.3 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.29-1.552 3.295-1.23 3.295-1.23.653 1.653.241 2.873.118 3.176.77.84 1.233 1.912 1.233 3.222 0 4.61-2.807 5.62-5.478 5.92.43.372.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .32.192.694.8.576C20.565 21.796 24 17.302 24 12c0-6.627-5.373-12-12-12z" />
+                    </svg>
+                  )}
+                  {skill === "TailwindCSS" && (
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12.002 6.001c-2.667 0-4.334 1.333-5 4 1-1.333 2-2 3-2 1.333 0 2.333.667 3 2-.667-2.667-2.334-4-5-4zm5 0c-2.667 0-4.334 1.333-5 4 1-1.333 2-2 3-2 1.333 0 2.333.667 3 2-.667-2.667-2.334-4-5-4zm-10 6c-2.667 0-4.334 1.333-5 4 1-1.333 2-2 3-2 1.333 0 2.333.667 3 2-.667-2.667-2.334-4-5-4zm5 0c-2.667 0-4.334 1.333-5 4 1-1.333 2-2 3-2 1.333 0 2.333.667 3 2-.667-2.667-2.334-4-5-4z" />
+                    </svg>
+                  )}
+                  {skill === "React" && (
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3zm0 18c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3zm0-9c-1.657 0-3 1.343-3 3s1.343 3 3 3 3-1.343 3-3-1.343-3-3-3z" />
+                    </svg>
+                  )}
+                  {skill === "TypeScript" && (
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.385.6.111.793-.26.793-.577 0-.285-.011-1.04-.017-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.744.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.998.108-.775.418-1.305.762-1.605-2.665-.305-5.467-1.332-5.467-5.93 0-1.31.467-2.382 1.235-3.222-.123-.303-.535-1.523.117-3.176 0 0 1.007-.322 3.3 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.29-1.552 3.295-1.23 3.295-1.23.653 1.653.241 2.873.118 3.176.77.84 1.233 1.912 1.233 3.222 0 4.61-2.807 5.62-5.478 5.92.43.372.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .32.192.694.8.576C20.565 21.796 24 17.302 24 12c0-6.627-5.373-12-12-12z" />
+                    </svg>
+                  )}
+                  {skill === "JavaScript" && (
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 0C5.373 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.385.6.111.793-.26.793-.577 0-.285-.011-1.04-.017-2.04-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.744.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.492.998.108-.775.418-1.305.762-1.605-2.665-.305-5.467-1.332-5.467-5.93 0-1.31.467-2.382 1.235-3.222-.123-.303-.535-1.523.117-3.176 0 0 1.007-.322 3.3 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.29-1.552 3.295-1.23 3.295-1.23.653 1.653.241 2.873.118 3.176.77.84 1.233 1.912 1.233 3.222 0 4.61-2.807 5.62-5.478 5.92.43.372.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .32.192.694.8.576C20.565 21.796 24 17.302 24 12c0-6.627-5.373-12-12-12z" />
+                    </svg>
+                  )}
+                  <span className="text-xl font-semibold mt-2">{skill}</span>
+                </div>
+                    </CardContent>
+                </Card>
+              </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+        </aside>
       </div>
       {/* Social Media links */}
-      <div className=" hidden Socio-icons animate-bounce md:animate-none  md:flex items-center justify-center  md:bottom-10 mt-6 md:mt-44 pt-10  md:fixed  ">
+      <div className=" flex flex-row Socio-icons animate-bounce md:animate-none  md:flex md:flex-row  md:bottom-10 mt-6 md:mt-44 pt-10  md:fixed  ">
                 <div className=" hover:animate-pulse">
                 <Link href="https://twitter.com/matthew_kuria" className=" "><svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512"><path fill="#ffff" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></Link>
                 </div>
