@@ -13,7 +13,7 @@ export default function Home() {
           alt="Profile Picture of Matthew Kuria"
           width={150}
           height={150}
-          className="rounded-full mt-6"
+          className="rounded-full mt-4"
         />
       </div>
       <div className="flex flex-col items-center justify-center mt-8">
