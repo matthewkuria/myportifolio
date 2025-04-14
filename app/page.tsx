@@ -1,8 +1,9 @@
+import HeroSection from "./components/HeroSection";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between p-24">
-    
+    <main className="flex flex-col w-full min-h-screen">
+        <HeroSection />
     </main>
   );
 }

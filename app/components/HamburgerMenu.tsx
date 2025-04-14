@@ -55,24 +55,16 @@ export default function HamburgerMenu() {
           <Link onClick={closeMenu} href="/" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
             Home
           </Link>
-          <Link onClick={closeMenu} href="/about-us" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
-            About Us
+          <Link onClick={closeMenu} href="/about-me" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
+            About Me
           </Link>
-          <Link onClick={closeMenu} href="/ministries" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
-            Ministries
+          <Link onClick={closeMenu} href="/projects" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
+            Projects
           </Link>
-          <Link onClick={closeMenu} href="/media" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
-            Media
+          <Link onClick={closeMenu} href="#" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
+            Contact Me
           </Link>
-          <Link onClick={closeMenu} href="/events" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
-            Events
-          </Link>
-          <Link onClick={closeMenu} href="/support" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
-            Support or Partner
-          </Link>
-          <Link onClick={closeMenu} href="/contacts" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
-            Contact Us
-          </Link>
+          
         </div>        
       </div>
     </div>
