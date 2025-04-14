@@ -13,7 +13,7 @@ const HeroSection = () => {
                 </p>
               <div className="flex gap-4 items-center">
                   <GetInTouchButton />
-                  <Link href="#projects" className="bg-white text-blue-900 px-6 py-3 rounded-full font-semibold hover:bg-secondary hover:text-white transition duration-300">
+                  <Link href="#projects" className="bg-white text-blue-900 px-6 py-2 rounded-full font-semibold hover:bg-secondary hover:text-white transition duration-300">
                       View My Work
                   </Link>                  
                 </div>
