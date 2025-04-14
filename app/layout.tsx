@@ -77,9 +77,7 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
-  },
-  manifest: "/site.webmanifest",
-  themeColor: "#000000",
+  },  
   appleWebApp: {
     statusBarStyle: "black-translucent",
     title: "Matthew Kuria | Portfolio",
@@ -92,11 +90,7 @@ export const metadata: Metadata = {
       "/apple-touch-startup-image-2048x2732.png",
     ],
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-  },
+  
   robots: {
     index: true,
     follow: true,

@@ -9,7 +9,7 @@ export default function Home() {
           Explore my projects, skills, and achievements.
         </p>
         <Image
-          src="/profile.jpg"
+          src="/matt.jpg"
           alt="Profile Picture of Matthew Kuria"
           width={150}
           height={150}
