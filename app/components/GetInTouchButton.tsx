@@ -5,7 +5,8 @@ const GetInTouchButton = () => {
   return (
     <div className="">
       <Link href="#" className="bg-secondary px-6 py-3 rounded-md text-background hover:text-secondary hover:outline-secondary hover:bg-background hover:outline-2  outline-1
-          outline-background">Get in Touch</Link>
+          outline-background transition duration-700 ease-out">
+        Get in Touch</Link>
     </div>
   )
 }
