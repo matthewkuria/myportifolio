@@ -4,8 +4,8 @@ import Link from 'next/link'
 
 const HeroSection = () => {
   return (
-      <section className="flex flex-col md:flex lg:flex-row items-center justify-center h-screen bg-gradient-to-r from-secondary to-blue-600 text-white">
-            <div className="hero flex flex-col w-full md:max-w-1/2 px-4">
+      <section className="hero flex flex-col md:flex lg:flex-row items-center justify-center h-screen md:bg-gradient-to-r from-secondary to-blue-600 text-white">
+            <div className=" flex flex-col w-full md:max-w-1/2 px-4">
                 <h1 className="text-3xl md:text-4xl font-bold mb-4">Frontend developer creating unique websites</h1>
               <p className="text-lg mb-8">Hi, am Matthew Kuria, a passionate web developer.
                 I specialize in creating beautiful and functional websites using the latest technologies.

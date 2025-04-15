@@ -49,7 +49,7 @@ export default function HamburgerMenu() {
       <div
         className={`${
           isOpen ? "block" : "hidden"
-        } sm:hidden bg-gray-800 text-white absolute top-20  z-50 left-0 right-0`}
+        } sm:hidden bg-secondary text-white absolute top-20  z-50 left-0 right-0`}
       >
         <div className="px-2 pt-2 pb-3 space-y-1">
           <Link onClick={closeMenu} href="/" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
