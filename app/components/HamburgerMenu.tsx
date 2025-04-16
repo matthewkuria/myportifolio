@@ -57,10 +57,10 @@ export default function HamburgerMenu() {
           <Link onClick={closeMenu} href="/" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
             Home
           </Link>
-          <Link onClick={closeMenu} href="/about-me" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
+          <Link onClick={closeMenu} href="#about-mk" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
             About Me
           </Link>
-          <Link onClick={closeMenu} href="/projects" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
+          <Link onClick={closeMenu} href="#projects" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
             Projects
           </Link>
           <Link onClick={closeMenu} href="#get-in-touch" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
