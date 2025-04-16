@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import mkLogo from "../../public/mkLogo.png"
+import MkLogo from "./MkLogo";
+
 
 export default function HamburgerMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -66,13 +66,9 @@ export default function HamburgerMenu() {
           <Link onClick={closeMenu} href="#get-in-touch" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
             Contact Me
           </Link>
-          
-        </div>  
-        <div className="flex justify-center items-center my-4">
-          <Image src={mkLogo} height={50} width={50} alt="Matthew Kuria Logo"
-            className="w-16 h-16 rounded-full bg-background"
-          />
-        </div>
+        </div> 
+        {/* Mk logo */}
+        <MkLogo />        
       </div>
     </div>
   );
