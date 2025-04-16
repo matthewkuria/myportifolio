@@ -34,7 +34,7 @@ export default function Footer() {
                         </li>
                     </ul>                    
                 </div>
-                <div className="w-full md:w-1/4">
+                <div className="w-full md:w-1/4 mb-4">
                     <h6 className="footer-title">Follow Me On:</h6>
                     <Socials />
                 </div>
