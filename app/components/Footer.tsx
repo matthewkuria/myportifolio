@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { bebas_neue, inter, modak, new_rocker, open_sans, playfairDisplay, poppins, redHatText, roboto_mono } from "../fonts/fonts";
+import {  open_sans } from "../fonts/fonts";
 import MkLogo from "./MkLogo";
 
 export default function Footer() {
