@@ -25,8 +25,8 @@ const MyStory = () => {
                     I am dedicated to delivering high-quality work on time and within budget.
                     I am always looking for new opportunities to grow and expand my skill set.
                     I am excited to take on new challenges and help bring your ideas to life.
-                    If you're looking for a web developer who is passionate about creating beautiful and functional websites,
-                    let's connect and see how we can work together!
+                    If you are looking for a web developer who is passionate about creating beautiful and functional websites,
+                    let us connect and see how we can work together!
                       </p>
               </div>
               <div className="flex flex-col md:flex-row md:items-center md:justify-center my-5 w-full md:w-1/2 ">
