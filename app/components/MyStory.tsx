@@ -29,8 +29,8 @@ const MyStory = () => {
                     let us connect and see how we can work together!
                       </p>
               </div>
-              <div className="flex flex-col md:flex-row md:items-center md:justify-center my-5 w-full md:w-1/2 ">
-                 <div className="w-1/2 mt-5">
+              <div className="flex flex-col  md:flex-row md:items-center md:justify-center my-5 w-full md:w-1/2 ">
+                 <div className="w-1/2 my-5 md:mb-0">
                    <GetInTouchButton />
                  </div>
                   <Socials />
