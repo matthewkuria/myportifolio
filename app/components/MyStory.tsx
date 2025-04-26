@@ -6,7 +6,7 @@ import Socials from './Socials'
 
 const MyStory = () => {
   return (
-    <div className="flex flex-col justify-center items-center md:flex-row w-full md:h-[350px] bg-secondary p-4 md:p-8 my-5">
+    <div id='about-mk' className="flex flex-col justify-center items-center md:flex-row w-full md:h-[350px] bg-secondary p-4 md:p-8 my-5">
         <div className="md:mx-5">
               <Image src={mattImage} width={200} height={300}  alt='Matthew Kuria'
                className='rounded-full md:rounded-none h-[200px] w-auto md:h-[300px]'
