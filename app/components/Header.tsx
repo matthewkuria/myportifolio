@@ -11,11 +11,17 @@ export default function Header() {
         <>
             <nav className=" relative py-2 px-4 flex items-center justify-between shadow-md ">
                 <Navlogo />
-                <Navlinks />   
-                <div className="hidden md:block">
-                    <GetInTouchButton />
+                <div className="flex items-center justify-between w-3/4 md:w-1/2 pr-3.5">
+                    <div className="mx-5">
+                        <Navlinks /> 
+                    </div>  
+                    <div className="hidden md:block">
+                        <GetInTouchButton />
+                    </div>
+                </div> 
+                <div className="block md:hidden">
+                    <HamburgerMenu  />
                 </div>
-                <HamburgerMenu  />
             </nav>
         </>
     )

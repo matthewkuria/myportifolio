@@ -58,7 +58,7 @@ export default function HamburgerMenu() {
             Home
           </Link>
           <Link onClick={closeMenu} href="#about-mk" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
-            About Me
+            About MK
           </Link>
           <Link onClick={closeMenu} href="#projects" className="block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700">
             Projects
