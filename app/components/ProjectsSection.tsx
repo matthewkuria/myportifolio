@@ -1,8 +1,16 @@
 "use client";
 import { useState } from 'react';
 import Image from 'next/image';
+import { CldImage } from 'next-cloudinary';
 import Link from 'next/link';
 import projects from '../../public/projects-data.json'; // Import your projects data
+
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LaunchIcon from '@mui/icons-material/Launch';
+
+
+
 export default function ProjectsSection() {
   const [filter, setFilter] = useState('All'); // Default filter
    const [visibleCount, setVisibleCount] = useState(6); // Number of projects to show initially
@@ -59,26 +67,38 @@ export default function ProjectsSection() {
                   placeholder="blur"
                   blurDataURL="/placeholder.jpg"
                 />
+                
               </div>
               <h3 className='font-semibold text-secondary text-xl'>{project.title}</h3>
               <p className='text-slate-600'>{project.description}</p>
-              <div className="">
+              <div className="text-slate-600 mt-2">
                 <p className='text-slate-500 text-sm'>Type: {project.type}</p>
                 <p className='text-slate-500 text-sm'>Tech Stack: {project.technologies.join(', ')}</p>
-                <p className='text-slate-500 text-sm'>Year: {project.year}</p>
+                <p className='text-slate-500 text-sm'>Year: N/A</p>
               </div>
               <div className="project-links">
-                <Link href={project.github} target="_blank" rel="noopener noreferrer">
-                  GitHub
+                <div className="grid grid-cols-2 gap-5">
+                  <Link href={project.github} target="_blank" rel="noopener noreferrer">
+                  <GitHubIcon className="text-slate-600 hover:text-slate-800" fontSize="large" />
                 </Link>
-                <Link href={project.liveDemo} target="_blank" rel="noopener noreferrer">
+                <Link href="" target="_blank" rel="noopener noreferrer">
+                  <YouTubeIcon className="text-slate-600 hover:text-red-600" fontSize="large" />
+                </Link>
+                </div>
+                <Link
+                  href={project.liveDemo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-slate-600 hover:text-slate-800 text-xs"
+                  >
                   Live Demo
+                 <LaunchIcon className="text-slate-600 hover:text-slate-800" fontSize="large" />
                 </Link>
               </div>
             </div>
           ))
         ) : (
-            <div className="no-projects-found text-center py-10">
+            <div className="no-projects-found text-center py-10 px-3">
             <Image 
               src="/mkLogo.png" 
               alt="No projects found" 
@@ -136,7 +156,7 @@ export default function ProjectsSection() {
 
         .project-links {
           display: flex;
-          justify-content: space-around;
+          justify-content: space-between;
           margin-top: 1rem;
         }
 

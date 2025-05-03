@@ -1,63 +1,75 @@
 [
   {
+    "id": 0,
+    "title": "Portfolio Website",
+    "description": "A personal portfolio website showcasing my projects and skills.",
+    "technologies": ["React","NextJs", "Tailwind CSS", "JSON Server"],
+    "type": "Landing Page",
+    "github": "https://github.com/matthewkuria/myportifolio",
+    "liveDemo": "https://matthewkuria.vercel.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746261127/Apex_1746261116506_ugur4t.jpg"
+  },
+  {
     "id": 1,
-    "title": "Crypto Dashboard",
-    "description": "A dashboard for tracking cryptocurrency prices and trends in real-time.",
-    "technologies": ["React", "Node.js", "API Integration", "Chart.js"],
-    "year": 2023,
-    "type": "Full Stack",
-    "github": "https://github.com/Matthew-Kuria/crypto-dashboard",
-    "liveDemo": "https://crypto-dashboard-matthewkuria.vercel.app/",
-    "image": "https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    "title": "Space Tourism Website",
+    "description": "A responsive website for a space tourism company, showcasing destinations and booking options.",
+    "technologies": ["React", "API Integration"],
+    "type": "Frontend",
+    "github": "https://github.com/matthewkuria/space-tourism-website",
+    "liveDemo":"https://space-tourism-website-matt.vercel.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746259668/space-tourism_ops9lk.jpg"
   },
   {
     "id": 2,
-    "title": "E-Commerce Website",
+    "title": "E-Commerce Product List with Cart",
     "description": "An online store with product listings, cart functionality, and secure checkout.",
-    "technologies": ["React", "Node.js", "Stripe", "MongoDB"],
+    "technologies": ["React", "Node.js","Tailwind CSS" , "JSON Server"],
     "type": "Full Stack",
     "github": "https://github.com/Matthew-Kuria/ecommerce-website",
-    "liveDemo": "https://ecommerce-matthewkuria.vercel.app/",
-    "image": "https://images.unsplash.com/photo-1557821555-234e86d3e3e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80"
+    "liveDemo": "https://product-list-with-cart-eta.vercel.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746254767/product_list_with_cart_rjquyg.png"
   },
   {
     "id": 3,
-    "title": "Task Management App",
-    "description": "A productivity app for creating, managing, and tracking tasks with a clean interface.",
-    "technologies": ["React", "Firebase", "Tailwind CSS"],
+    "title": "Jafrana Construction",
+    "description": "A construction company website showcasing services, projects, and contact information.",
+    "technologies": ["NextJs", "Tailwind CSS", "TypeScript", "Node.js"],
     "type": "Frontend",
-    "github": "https://github.com/Matthew-Kuria/task-management-app",
-    "liveDemo": "https://task-management-matthewkuria.vercel.app/",
-    "image": "https://cdn.pixabay.com/photo/2017/05/09/21/49/gears-2291915_1280.jpg"
+    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
+    "liveDemo": "https://jafrana.vercel.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746259989/Apex_1746259977362_sxvkml.jpg"
   },
   {
     "id": 4,
-    "title": "Portfolio Website",
-    "description": "A personal portfolio showcasing my projects and skills as a developer.",
-    "technologies": ["Next.js", "React", "CSS"],
+    "title": "QR Code Component",
+    "description": "A simple QR code component built with React, showcasing a QR code and its details.",
+    "technologies": ["NextJs", "Tailwind CSS", "TypeScript", "Node.js"],
     "type": "Frontend",
-    "github": "https://github.com/Matthew-Kuria/portfolio",
-    "liveDemo": "https://matthewkuria.vercel.app/",
-    "image": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg"
+    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
+    "liveDemo": "https://matt-qr-code-component.vercel.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746260873/Apex_1746260860430_onnbzm.jpg"
   },
   {
     "id": 5,
-    "title": "Chat Application",
-    "description": "A real-time chat app with user authentication and message history.",
-    "technologies": ["React", "Node.js", "Socket.io", "MongoDB"],
+    "title": "EduTech Dashboard",
+    "description": "A smooth error-proof way of capturing lesson allocations for the teachers during  meetings.",
+    "technologies": ["NextJs", "Tailwind CSS", "TypeScript", "Firebase"],
     "type": "Full Stack",
-    "github": "https://github.com/Matthew-Kuria/chat-app",
-    "liveDemo": "https://chat-app-matthewkuria.vercel.app/",
-    "image": "https://images.pexels.com/photos/5077048/pexels-photo-5077048.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
+    "liveDemo": "https://hodsmart.vercel.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746260873/Apex_1746260860430_onnbzm.jpg"
   },
   {
     "id": 6,
-    "title": "API Server",
-    "description": "A RESTful API for managing user data and authentication.",
-    "technologies": ["Node.js", "Express", "MongoDB"],
-    "type": "Backend",
-    "github": "https://github.com/Matthew-Kuria/api-server",
-    "liveDemo": "https://api-server-matthewkuria.herokuapp.com/",
-    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80"
+    "title": "Insure Landing Page",
+    "description": "A responsive landing page for an insurance company, showcasing services and benefits.",
+    "technologies": ["React", "Tailwind CSS", "TypeScript"],
+    "type": "Landing Page",
+    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
+    "liveDemo": "https://hotfix-insure.netlify.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746262575/Apex_1746262235976_i7emep.jpg"
   }
+
+
+
 ]
