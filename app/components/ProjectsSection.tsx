@@ -57,7 +57,7 @@ export default function ProjectsSection() {
           visibleProjects.map(project => (
             <div key={project.id} className="project-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
               {/* Project Image */}
-              <div className="flex justify-center items-center mb-4 bg-slate-500 min-h-[40vh]">
+              <div className="flex justify-center items-center mb-4 bg-slate-500 min-h-[40vh] p-3">
                 <Image src={project.image}
                   width={300}
                   height={200}
