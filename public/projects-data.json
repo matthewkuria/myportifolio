@@ -68,6 +68,16 @@
     "github": "https://github.com/Matthew-Kuria/ecommerce-website",
     "liveDemo": "https://hotfix-insure.netlify.app/",
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746262575/Apex_1746262235976_i7emep.jpg"
+  },
+  {
+    "id": 7,
+    "title": "The big 5 Animals landing page",
+    "description": "A responsive landing page for a wildlife conservation organization, showcasing the big five animals.",
+    "technologies": ["React", "Tailwind CSS", "TypeScript"],
+    "type": "Landing Page",
+    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
+    "liveDemo": "https://thabig5.netlify.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746262574/Apex_1746262365953_a61ahx.jpg"
   }
 
 
