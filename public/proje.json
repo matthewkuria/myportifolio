@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "title": "Crypto Dashboard",
+    "description": "A dashboard for tracking cryptocurrency prices and trends in real-time.",
+    "technologies": ["React", "Node.js", "API Integration", "Chart.js"],
+    "type": "Full Stack",
+    "github": "https://github.com/Matthew-Kuria/crypto-dashboard",
+    "liveDemo": "https://crypto-dashboard-matthewkuria.vercel.app/",
+    "image": "https://www.pexels.com/photo/woman-in-white-dress-surrounded-by-monstera-leaves-31890680/"
+  },
+  {
+    "id": 2,
+    "title": "E-Commerce Website",
+    "description": "An online store with product listings, cart functionality, and secure checkout.",
+    "technologies": ["React", "Node.js", "Stripe", "MongoDB"],
+    "type": "Full Stack",
+    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
+    "liveDemo": "https://ecommerce-matthewkuria.vercel.app/",
+    "image": "https://matthewkuria.vercel.app/images/ecommerce-website.png"
+  },
+  {
+    "id": 3,
+    "title": "Task Management App",
+    "description": "A productivity app for creating, managing, and tracking tasks with a clean interface.",
+    "technologies": ["React", "Firebase", "Tailwind CSS"],
+    "type": "Frontend",
+    "github": "https://github.com/Matthew-Kuria/task-management-app",
+    "liveDemo": "https://task-management-matthewkuria.vercel.app/",
+    "image": "https://matthewkuria.vercel.app/images/task-management-app.png"
+  },
+  {
+    "id": 4,
+    "title": "Portfolio Website",
+    "description": "A personal portfolio showcasing my projects and skills as a developer.",
+    "technologies": ["Next.js", "React", "CSS"],
+    "type": "Frontend",
+    "github": "https://github.com/Matthew-Kuria/portfolio",
+    "liveDemo": "https://matthewkuria.vercel.app/",
+    "image": "https://matthewkuria.vercel.app/images/portfolio.png"
+  },
+  {
+    "id": 5,
+    "title": "Chat Application",
+    "description": "A real-time chat app with user authentication and message history.",
+    "technologies": ["React", "Node.js", "Socket.io", "MongoDB"],
+    "type": "Full Stack",
+    "github": "https://github.com/Matthew-Kuria/chat-app",
+    "liveDemo": "https://chat-app-matthewkuria.vercel.app/",
+    "image": "https://matthewkuria.vercel.app/images/chat-app.png"
+  },
+  {
+    "id": 6,
+    "title": "API Server",
+    "description": "A RESTful API for managing user data and authentication.",
+    "technologies": ["Node.js", "Express", "MongoDB"],
+    "type": "Backend",
+    "github": "https://github.com/Matthew-Kuria/api-server",
+    "liveDemo": "https://api-server-matthewkuria.herokuapp.com/",
+    "image": "https://matthewkuria.vercel.app/images/api-server.png"
+  },
+  {
+    "id": 7,
+    "title": "Weather App",
+    "description": "A simple weather app that fetches data from a weather API and displays it.",
+    "technologies": ["HTML", "CSS", "JavaScript", "API Integration"],
+    "type": "Frontend",
+    "github": "https://github.com/Matthew-Kuria/api-server",
+    "liveDemo": "https://weather-app-matthewkuria.vercel.app/",
+    "image": "https://matthewkuria.vercel.app/images/weather-app.png"
+  },{
+    "id": 8,
+    "title": "Task Management App",
+    "description": "A productivity app for creating, managing, and tracking tasks with a clean interface.",
+    "technologies": ["React", "Firebase", "Tailwind CSS"],
+    "type": "Frontend",
+    "github": "https://github.com/Matthew-Kuria/task-management-app",
+    "liveDemo": "https://task-management-matthewkuria.vercel.app/",
+    "image": "https://matthewkuria.vercel.app/images/task-management-app.png"
+  },
+  {
+    "id": 9,
+    "title": "Portfolio Website",
+    "description": "A personal portfolio showcasing my projects and skills as a developer.",
+    "technologies": ["Next.js", "React", "CSS"],
+    "type": "Frontend",
+    "github": "https://github.com/Matthew-Kuria/portfolio",
+    "liveDemo": "https://matthewkuria.vercel.app/",
+    "image": "https://matthewkuria.vercel.app/images/portfolio.png"
+  },
+  {
+    "id": 10,
+    "title": "Chat Application",
+    "description": "A real-time chat app with user authentication and message history.",
+    "technologies": ["React", "Node.js", "Socket.io", "MongoDB"],
+    "type": "Full Stack",
+    "github": "https://github.com/Matthew-Kuria/chat-app",
+    "liveDemo": "https://chat-app-matthewkuria.vercel.app/",
+    "image": "https://matthewkuria.vercel.app/images/chat-app.png"
+  },
+  {
+    "id": 11,
+    "title": "API Server",
+    "description": "A RESTful API for managing user data and authentication.",
+    "technologies": ["Node.js", "Express", "MongoDB"],
+    "type": "Backend",
+    "github": "https://github.com/Matthew-Kuria/api-server",
+    "liveDemo": "https://api-server-matthewkuria.herokuapp.com/",
+    "image": "https://matthewkuria.vercel.app/images/api-server.png"
+  }
+]

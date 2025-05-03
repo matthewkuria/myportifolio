@@ -1,9 +1,11 @@
 "use client";
 import { useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 import projects from '../../public/projects-data.json'; // Import your projects data
 export default function ProjectsSection() {
   const [filter, setFilter] = useState('All'); // Default filter
-   const [visibleCount, setVisibleCount] = useState(3); // Number of projects to show initially
+   const [visibleCount, setVisibleCount] = useState(6); // Number of projects to show initially
 
   // Filter projects based on selected type
   const filteredProjects = filter === 'All'
@@ -14,24 +16,26 @@ export default function ProjectsSection() {
   const visibleProjects = filteredProjects.slice(0, visibleCount);
 
   // Available filter options
-  const filterOptions = ['All', 'Frontend','Landing Page','Full Stack',];
+  const filterOptions = ['All', 'Frontend', 'Landing Page', 'Full Stack',];
+  
   // Handle Load More button click
   const handleLoadMore = () => {
-    setVisibleCount(prevCount => prevCount + 3); // Load next 6 projects
+    setVisibleCount(prevCount => prevCount + 3); // Load next 3 projects
   };
   return (
-    <section className="projects-section w-full flex flex-col  py-10">
-      <h2>Projects</h2>
+    <section className="projects-section w-full flex flex-col  py-10" id='projects'>
+      {/* Section Title */}
+      <h2 className='text-3xl font-bold text-center my-4 '>Projects</h2>
 
       {/* Filter Buttons */}
       <div className="filter-buttons">
         {filterOptions.map(option => (
           <button
             key={option}
-            className={`filter-btn ${filter === option ? 'active' : ''}`}
+            className={`filter-btn bg-none outline-1 outline-slate-300 rounded-md px-2 py-1 text-slate-500 hover:bg-slate-400 hover:text-white ${filter === option ? 'active' : ''}`}
             onClick={() => {
               setFilter(option)
-              setVisibleCount(3); // Reset visible count when filter changes
+              setVisibleCount(6); // Reset visible count when filter changes
             }}
           >
             {option}
@@ -43,8 +47,17 @@ export default function ProjectsSection() {
       <div className="projects-grid">
         {visibleProjects.length > 0 ? (
           visibleProjects.map(project => (
-            <div key={project.id} className="project-card">
-              <img src={project.image} alt={project.title} className="project-image" />
+            <div key={project.id} className="project-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+              {/* Project Image */}
+              <div className="flex justify-center items-center mb-4 bg-slate-200">
+                <Image src={project.image}
+                  width={300}
+                  height={200}
+                  alt={project.title}
+                  className="w-full h-auto"
+                  priority={true} // Load image with priority
+                />
+              </div>
               <h3>{project.title}</h3>
               <p>{project.description}</p>
               <div className="project-links">
@@ -73,13 +86,7 @@ export default function ProjectsSection() {
       <style jsx>{`
         
 
-        h2 {
-          font-size: 2.5rem;
-          text-align: center;
-          margin-bottom: 2rem;
-        }
-
-        .filter-buttons {
+         .filter-buttons {
           display: flex;
           justify-content: center;
           gap: 1rem;
@@ -88,12 +95,11 @@ export default function ProjectsSection() {
 
        
 
-        .filter-btn:hover {
-          background: #555;
-        }
+       
 
         .filter-btn.active {
           background: #0070f3;
+          color: #fff;
         }
 
         .projects-grid {
@@ -102,13 +108,7 @@ export default function ProjectsSection() {
           gap: 2rem;
         }
 
-        .project-card {
-          background: #222;
-          padding: 1.5rem;
-          border-radius: 10px;
-          text-align: center;
-          transition: transform 0.3s;
-        }
+        
 
         .project-card:hover {
           transform: translateY(-5px);

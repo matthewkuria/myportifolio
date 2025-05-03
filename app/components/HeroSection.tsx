@@ -1,6 +1,7 @@
 import React from 'react'
 import GetInTouchButton from './GetInTouchButton'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const HeroSection = () => {
   return (
@@ -19,7 +20,7 @@ const HeroSection = () => {
                 </div>
           </div>
           <div className="hidden md:block w-full md:max-w-1/2 p-2">
-            <img src="/tech_bg.webp" alt="Hero Image" className="w-[650px] h-full" />
+            <Image src="/tech_bg.webp" width={400} height={300} alt="Hero Image" className="w-[650px] h-full" priority />
           </div>
     </section>
   )
