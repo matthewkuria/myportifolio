@@ -49,29 +49,46 @@ export default function ProjectsSection() {
           visibleProjects.map(project => (
             <div key={project.id} className="project-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
               {/* Project Image */}
-              <div className="flex justify-center items-center mb-4 bg-slate-200">
+              <div className="flex justify-center items-center mb-4 bg-slate-500 min-h-[40vh]">
                 <Image src={project.image}
                   width={300}
                   height={200}
                   alt={project.title}
                   className="w-full h-auto"
                   priority={true} // Load image with priority
+                  placeholder="blur"
+                  blurDataURL="/placeholder.jpg"
                 />
               </div>
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
+              <h3 className='font-semibold text-secondary text-xl'>{project.title}</h3>
+              <p className='text-slate-600'>{project.description}</p>
+              <div className="">
+                <p className='text-slate-500 text-sm'>Type: {project.type}</p>
+                <p className='text-slate-500 text-sm'>Tech Stack: {project.technologies.join(', ')}</p>
+                <p className='text-slate-500 text-sm'>Year: {project.year}</p>
+              </div>
               <div className="project-links">
-                <a href={project.github} target="_blank" rel="noopener noreferrer">
+                <Link href={project.github} target="_blank" rel="noopener noreferrer">
                   GitHub
-                </a>
-                <a href={project.liveDemo} target="_blank" rel="noopener noreferrer">
+                </Link>
+                <Link href={project.liveDemo} target="_blank" rel="noopener noreferrer">
                   Live Demo
-                </a>
+                </Link>
               </div>
             </div>
           ))
         ) : (
-          <p>No projects found for this category.</p>
+            <div className="no-projects-found text-center py-10">
+            <Image 
+              src="/mkLogo.png" 
+              alt="No projects found" 
+              width={150} 
+              height={150} 
+              className="mx-auto mb-4"
+            />
+            <h3 className="text-xl font-semibold text-slate-600">No projects found</h3>
+            <p className="text-slate-500">Try selecting a different category or check back later for updates!</p>
+            </div>
         )}
       </div>
          {/* Load More Button */}
@@ -83,18 +100,13 @@ export default function ProjectsSection() {
         </div>
       )}
       {/* CSS Styles */}
-      <style jsx>{`
-        
-
+      <style jsx>{`      
          .filter-buttons {
           display: flex;
           justify-content: center;
           gap: 1rem;
           margin-bottom: 2rem;
         }
-
-       
-
        
 
         .filter-btn.active {
@@ -111,7 +123,8 @@ export default function ProjectsSection() {
         
 
         .project-card:hover {
-          transform: translateY(-5px);
+          transform: translateY(-2px);
+          transition: transform 0.3s ease;
         }
 
         .project-image {
