@@ -44,20 +44,20 @@
     "title": "QR Code Component",
     "description": "A simple QR code component built with React, showcasing a QR code and its details.",
     "technologies": ["NextJs", "Tailwind CSS", "TypeScript", "Node.js"],
-    "type": "Frontend",
+    "type": "Landing Page",
     "github": "https://github.com/Matthew-Kuria/ecommerce-website",
     "liveDemo": "https://matt-qr-code-component.vercel.app/",
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746260873/Apex_1746260860430_onnbzm.jpg"
   },
   {
     "id": 5,
-    "title": "EduTech Dashboard",
-    "description": "A smooth error-proof way of capturing lesson allocations for the teachers during  meetings.",
-    "technologies": ["NextJs", "Tailwind CSS", "TypeScript", "Firebase"],
-    "type": "Full Stack",
+    "title": "Blogr Landing Page",
+    "description": "A responsive landing page for a blogging platform, showcasing features and benefits.",
+    "technologies": ["React", "Tailwind CSS", "TypeScript"],
+    "type": "Landing Page",
     "github": "https://github.com/Matthew-Kuria/ecommerce-website",
-    "liveDemo": "https://hodsmart.vercel.app/",
-    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746260873/Apex_1746260860430_onnbzm.jpg"
+    "liveDemo": "https://bl0gr.netlify.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746262574/Apex_1746262151659_hr71gd.jpg"
   },
   {
     "id": 6,
@@ -78,7 +78,70 @@
     "github": "https://github.com/Matthew-Kuria/ecommerce-website",
     "liveDemo": "https://thabig5.netlify.app/",
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746262574/Apex_1746262365953_a61ahx.jpg"
+  },
+  
+  {
+    "id": 8,
+    "title": "EduTech Dashboard",
+    "description": "A smooth error-proof way of capturing lesson allocations for the teachers during  meetings.",
+    "technologies": ["NextJs", "Tailwind CSS", "TypeScript", "Firebase"],
+    "type": "Full Stack",
+    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
+    "liveDemo": "https://hodsmart.vercel.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746260873/Apex_1746260860430_onnbzm.jpg"
+  },
+   {
+    "id": 9,
+    "title": "Product Cart card",
+    "description": "A responsive product card component with a cart feature, built with React.",
+    "technologies": ["React", "Tailwind CSS", "TypeScript"],
+    "type": "Landing Page",
+    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
+    "liveDemo": "https://product-rvw.netlify.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746262577/Apex_1746262024016_cpylaj.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Advice Generator App",
+    "description": "A simple advice generator app that fetches random advice from an API.",
+    "technologies": ["React", "Tailwind CSS", "JavaScript", "API Integration"],
+    "type": "Full Stack",
+    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
+    "liveDemo": "https://advyce-generator-app.netlify.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746262008/Apex_1746261905271_v6xxo1.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Notification Page",
+    "description": "A notification page showcasing different types of notifications and their interactions.",
+    "technologies": ["React", "Tailwind CSS", "JavaScript"],
+    "type": "Landing Page",
+    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
+    "liveDemo": "https://notifiication-page.netlify.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746262008/Apex_1746261939285_yqvolg.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Testimonials Page",
+    "description": "A testimonials page showcasing user reviews and feedback.",
+    "technologies": ["React", "Tailwind CSS", "JavaScript", "Netlify "],
+    "type": "Landing Page",
+    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
+    "liveDemo": "https://re-viewsproject.netlify.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746262575/Apex_1746262202361_vzdaac.jpg"
+  },
+  {
+    "id": 12,
+    "title": "School Website",
+    "description": "A school website showcasing information about the institution, programs, and contact details.",
+    "technologies": ["html", "css", "JavaScript"],
+    "type": "Frontend",
+    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
+    "liveDemo": "https://lanetsecondaryschool.netlify.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746264428/Apex_1746264411981_udi5l8.jpg"
   }
+
+  
 
 
 
