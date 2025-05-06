@@ -23,6 +23,7 @@ const MySkills = () => {
                 <li>Django REST Framework</li>
                 <li>PostgreSQL</li>
                 <li>Node.js</li>
+                <li>Firebase</li>
               </ul>
             </div>
         </div>
