@@ -5,7 +5,7 @@ import ProjectsSection from "./components/ProjectsSection";
 
 export default function Home() {
   return (
-    <main className="flex flex-col w-full min-h-screen p-0.25 bg-background">
+    <main className="flex flex-col w-full min-h-screen  bg-background">
       <HeroSection />
       <ProjectsSection />
       <MyStory />
