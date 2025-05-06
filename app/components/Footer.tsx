@@ -28,8 +28,8 @@ export default function Footer() {
                             </Link>
                         </li>
                         <li>
-                            <Link href="tel:0718421871">
-                                0718421871
+                            <Link href="tel:">
+                                
                             </Link>
                         </li>
                     </ul>                    
