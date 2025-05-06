@@ -22,18 +22,10 @@ const MyStory = () => {
             Django, Django REST Framework, and PostgreSQL to create robust APIs and scalable databases.
             My goal is to blend creativity and technical precision to deliver solutions that are both
             functional and delightful. Let us build something amazing together!
-
-
-                      </p>
-              </div>
-              <div className="flex flex-col  md:flex-row md:items-center md:justify-center my-5 w-full md:w-1/2 ">
-                 <div className="w-1/2 my-5 md:mb-0">
-                   <GetInTouchButton />
-                 </div>
-                  <Socials />
-              </div>
+          </p>
         </div>
-          
+              
+      </div>
     </div>
   )
 }

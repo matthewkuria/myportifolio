@@ -33,7 +33,7 @@ export default function ProjectsSection() {
   return (
     <section className="projects-section w-full flex flex-col  py-10" id='projects'>
       {/* Section Title */}
-      <h2 className='text-3xl font-bold text-center my-4 '>Projects</h2>
+      <h2 className='text-3xl md:text-4xl font-extrabold mb-6 text-center my-4 text-gray-800 '>Projects</h2>
 
       {/* Filter Buttons */}
       <div className="filter-buttons">
