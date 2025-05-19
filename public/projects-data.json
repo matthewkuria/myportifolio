@@ -33,10 +33,10 @@
     "id": 3,
     "title": "Jafrana Construction",
     "description": "A construction company website showcasing services, projects, and contact information.",
-    "technologies": ["NextJs", "Tailwind CSS", "TypeScript", "Node.js"],
+    "technologies": ["NextJs", "Tailwind CSS", "TypeScript", "Node.js","SEO"],
     "type": "Frontend",
     "github": "https://github.com/Matthew-Kuria/ecommerce-website",
-    "liveDemo": "https://jafrana.vercel.app/",
+    "liveDemo": "https://jafranaconstructionworks.co.ke/",
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746259989/Apex_1746259977362_sxvkml.jpg"
   },
   {
