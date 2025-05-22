@@ -1,14 +1,15 @@
 [
   {
     "id": 0,
-    "title": "Portfolio Website",
-    "description": "A personal portfolio website showcasing my projects and skills.",
-    "technologies": ["React","NextJs", "Tailwind CSS", "JSON Server"],
-    "type": "Landing Page",
-    "github": "https://github.com/matthewkuria/myportifolio",
-    "liveDemo": "https://matthewkuria.vercel.app/",
-    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746261127/Apex_1746261116506_ugur4t.jpg"
+    "title": "Jafrana Construction",
+    "description": "A Kenyan construction company website showcasing services, projects, and contact information.",
+    "technologies": ["NextJs", "Tailwind CSS", "TypeScript", "Node.js","SEO"],
+    "type": "Frontend",
+    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
+    "liveDemo": "https://jafranaconstructionworks.co.ke/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1747909207/jafrana_sweuth.jpg"
   },
+  
   {
     "id": 1,
     "title": "Space Tourism Website",
@@ -31,13 +32,13 @@
   },
   {
     "id": 3,
-    "title": "Jafrana Construction",
-    "description": "A construction company website showcasing services, projects, and contact information.",
-    "technologies": ["NextJs", "Tailwind CSS", "TypeScript", "Node.js","SEO"],
-    "type": "Frontend",
-    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
-    "liveDemo": "https://jafranaconstructionworks.co.ke/",
-    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746259989/Apex_1746259977362_sxvkml.jpg"
+    "title": "Portfolio Website",
+    "description": "A personal portfolio website showcasing my projects and skills.",
+    "technologies": ["React","NextJs", "Tailwind CSS", "JSON Server"],
+    "type": "Landing Page",
+    "github": "https://github.com/matthewkuria/myportifolio",
+    "liveDemo": "https://matthewkuria.vercel.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746261127/Apex_1746261116506_ugur4t.jpg"
   },
   {
     "id": 4,
