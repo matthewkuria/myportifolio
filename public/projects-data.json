@@ -9,6 +9,16 @@
     "liveDemo": "https://jafranaconstructionworks.co.ke/",
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1747909207/jafrana_sweuth.jpg"
   },
+  {
+    "id": 1,
+    "title": "Thika Greens Golf Resort",
+    "description": "A Kenyan 5-star golf resort website showcasing restaurant, accomodation, amenities, golf-course, and booking options.",
+    "technologies": ["NextJs", "Tailwind CSS", "TypeScript", "Node.js","SEO"],
+    "type": "Frontend",
+    "github": "N/A",
+    "liveDemo": "https://thikagreensgolfresort.co.ke/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1747909971/thikagreens_ydbkdj.jpg"
+  },
   
   {
     "id": 1,
