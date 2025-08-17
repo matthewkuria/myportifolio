@@ -21,16 +21,26 @@
   },
    {
     "id": 2,
-    "title": "School Website",
+    "title": "High School Website",
     "description": "A school website showcasing information about the institution, programs, and contact details.",
-    "technologies": ["html", "css", "JavaScript"],
+    "technologies": ["Wordpress", "SEO"],
     "type": "Frontend",
     "github": "https://github.com/Matthew-Kuria/ecommerce-website",
-    "liveDemo": "https://lanetsecondaryschool.netlify.app/",
-    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746264428/Apex_1746264411981_udi5l8.jpg"
-  }
+    "liveDemo": "https://www.lanetsecondaryschool.sc.ke/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1755443092/hero-section_pmefhr.jpg"
+  },
   {
     "id": 3,
+    "title": "Green Energy Company Website",
+    "description": "A responsive landing page for a green energy company, showcasing services and benefits.",
+    "technologies": ["React","NextJs", "Tailwind CSS", "JSON Server","SEO"],
+    "type": "Company Website",
+    "github": "https://github.com/matthewkuria/myportifolio",
+    "liveDemo": "https://matthewkuria.vercel.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1755443165/Apex_1755442779652_mxqdku.jpg"
+  },
+  {
+    "id": 4,
     "title": "Space Tourism Website",
     "description": "A responsive website for a space tourism company, showcasing destinations and booking options.",
     "technologies": ["React", "API Integration"],
@@ -40,7 +50,7 @@
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746259668/space-tourism_ops9lk.jpg"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "E-Commerce Product List with Cart",
     "description": "An online store with product listings, cart functionality, and secure checkout.",
     "technologies": ["React", "Node.js","Tailwind CSS" , "JSON Server"],
@@ -49,16 +59,7 @@
     "liveDemo": "https://product-list-with-cart-eta.vercel.app/",
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746265363/product_list_with_cart_isotkp.png"
   },
-  {
-    "id": 5,
-    "title": "Portfolio Website",
-    "description": "A personal portfolio website showcasing my projects and skills.",
-    "technologies": ["React","NextJs", "Tailwind CSS", "JSON Server"],
-    "type": "Landing Page",
-    "github": "https://github.com/matthewkuria/myportifolio",
-    "liveDemo": "https://matthewkuria.vercel.app/",
-    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746261127/Apex_1746261116506_ugur4t.jpg"
-  },
+  
   {
     "id": 6,
     "title": "QR Code Component",
