@@ -14,6 +14,8 @@ const MySkills = () => {
                 <li>React</li>
                 <li>Next.js</li>
                 <li>Tailwind CSS</li>
+                <li>Wordpress</li>
+                <li>SEO</li>
               </ul>
             </div>
             <div className="w-full md:w-1/2 flex flex-col items-start justify-center text-left md:ml-32">
