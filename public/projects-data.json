@@ -19,9 +19,18 @@
     "liveDemo": "https://thikagreensgolfresort.co.ke/",
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1747909971/thikagreens_ydbkdj.jpg"
   },
-  
+   {
+    "id": 2,
+    "title": "School Website",
+    "description": "A school website showcasing information about the institution, programs, and contact details.",
+    "technologies": ["html", "css", "JavaScript"],
+    "type": "Frontend",
+    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
+    "liveDemo": "https://lanetsecondaryschool.netlify.app/",
+    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746264428/Apex_1746264411981_udi5l8.jpg"
+  }
   {
-    "id": 1,
+    "id": 3,
     "title": "Space Tourism Website",
     "description": "A responsive website for a space tourism company, showcasing destinations and booking options.",
     "technologies": ["React", "API Integration"],
@@ -31,7 +40,7 @@
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746259668/space-tourism_ops9lk.jpg"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "E-Commerce Product List with Cart",
     "description": "An online store with product listings, cart functionality, and secure checkout.",
     "technologies": ["React", "Node.js","Tailwind CSS" , "JSON Server"],
@@ -41,7 +50,7 @@
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746265363/product_list_with_cart_isotkp.png"
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "Portfolio Website",
     "description": "A personal portfolio website showcasing my projects and skills.",
     "technologies": ["React","NextJs", "Tailwind CSS", "JSON Server"],
@@ -51,7 +60,7 @@
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746261127/Apex_1746261116506_ugur4t.jpg"
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "QR Code Component",
     "description": "A simple QR code component built with React, showcasing a QR code and its details.",
     "technologies": ["NextJs", "Tailwind CSS", "TypeScript", "Node.js"],
@@ -61,7 +70,7 @@
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746260873/Apex_1746260860430_onnbzm.jpg"
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "Blogr Landing Page",
     "description": "A responsive landing page for a blogging platform, showcasing features and benefits.",
     "technologies": ["React", "Tailwind CSS", "TypeScript"],
@@ -71,7 +80,7 @@
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746262574/Apex_1746262151659_hr71gd.jpg"
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "Insure Landing Page",
     "description": "A responsive landing page for an insurance company, showcasing services and benefits.",
     "technologies": ["React", "Tailwind CSS", "TypeScript"],
@@ -81,7 +90,7 @@
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746262575/Apex_1746262235976_i7emep.jpg"
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "The big 5 Animals landing page",
     "description": "A responsive landing page for a wildlife conservation organization, showcasing the big five animals.",
     "technologies": ["React", "Tailwind CSS", "TypeScript"],
@@ -92,7 +101,7 @@
   },
   
   {
-    "id": 8,
+    "id": 10,
     "title": "EduTech Dashboard",
     "description": "A smooth error-proof way of capturing lesson allocations for the teachers during  meetings.",
     "technologies": ["NextJs", "Tailwind CSS", "TypeScript", "Firebase"],
@@ -102,7 +111,7 @@
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746265186/hodsmart_qlrtgu.png"
   },
    {
-    "id": 9,
+    "id": 11,
     "title": "Product Cart card",
     "description": "A responsive product card component with a cart feature, built with React.",
     "technologies": ["React", "Tailwind CSS", "TypeScript"],
@@ -112,7 +121,7 @@
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746262577/Apex_1746262024016_cpylaj.jpg"
   },
   {
-    "id": 10,
+    "id": 12,
     "title": "Advice Generator App",
     "description": "A simple advice generator app that fetches random advice from an API.",
     "technologies": ["React", "Tailwind CSS", "JavaScript", "API Integration"],
@@ -122,7 +131,7 @@
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746262008/Apex_1746261905271_v6xxo1.jpg"
   },
   {
-    "id": 11,
+    "id": 13,
     "title": "Notification Page",
     "description": "A notification page showcasing different types of notifications and their interactions.",
     "technologies": ["React", "Tailwind CSS", "JavaScript"],
@@ -132,7 +141,7 @@
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746262008/Apex_1746261939285_yqvolg.jpg"
   },
   {
-    "id": 12,
+    "id": 14,
     "title": "Testimonials Page",
     "description": "A testimonials page showcasing user reviews and feedback.",
     "technologies": ["React", "Tailwind CSS", "JavaScript", "Netlify "],
@@ -140,17 +149,8 @@
     "github": "https://github.com/Matthew-Kuria/ecommerce-website",
     "liveDemo": "https://re-viewsproject.netlify.app/",
     "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746262575/Apex_1746262202361_vzdaac.jpg"
-  },
-  {
-    "id": 12,
-    "title": "School Website",
-    "description": "A school website showcasing information about the institution, programs, and contact details.",
-    "technologies": ["html", "css", "JavaScript"],
-    "type": "Frontend",
-    "github": "https://github.com/Matthew-Kuria/ecommerce-website",
-    "liveDemo": "https://lanetsecondaryschool.netlify.app/",
-    "image": "https://res.cloudinary.com/dwhba39zm/image/upload/v1746264428/Apex_1746264411981_udi5l8.jpg"
   }
+ 
 
   
 
