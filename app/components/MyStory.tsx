@@ -21,7 +21,7 @@ const MyStory = () => {
 
       <div className="flex flex-col w-full md:w-3/4">
         <div>
-          <h1 className="text-background text-2xl md:text-3xl font-bold my-5">
+          <h1 className="text-foreground text-2xl md:text-3xl font-bold my-5">
             About Matthew Kuria
           </h1>
 
