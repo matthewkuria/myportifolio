@@ -55,9 +55,9 @@ export default function ProjectsSection() {
       <div className="projects-grid">
         {visibleProjects.length > 0 ? (
           visibleProjects.map(project => (
-            <div key={project.id} className="project-card bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <div key={project.id} className="project-card  p-4 rounded-lg shadow-foreground shadow-xs hover:shadow-md transition-shadow duration-300">
               {/* Project Image */}
-              <div className="flex justify-center items-center mb-4 bg-slate-500 min-h-[40vh] p-3">
+              <div className="flex justify-center items-center min-h-[40vh] p-3">
                 <Image src={project.image}
                   width={300}
                   height={200}
@@ -70,11 +70,11 @@ export default function ProjectsSection() {
                 
               </div>
               <h3 className='font-semibold text-secondary text-xl'>{project.title}</h3>
-              <p className='text-slate-600'>{project.description}</p>
-              <div className="text-slate-600 mt-2">
-                <p className='text-slate-500 text-sm'>Type: {project.type}</p>
-                <p className='text-slate-500 text-sm'>Tech Stack: {project.technologies.join(', ')}</p>
-                <p className='text-slate-500 text-sm'>Year: N/A</p>
+              <p className='text-foreground'>{project.description}</p>
+              <div className="text-foreground mt-2">
+                <p className='text-foreground text-sm'>Type: {project.type}</p>
+                <p className='text-foreground text-sm'>Tech Stack: {project.technologies.join(', ')}</p>
+                <p className='text-foreground text-sm'>Year: N/A</p>
               </div>
               <div className="project-links">
                 <div className="grid grid-cols-2 gap-5">
@@ -89,10 +89,10 @@ export default function ProjectsSection() {
                   href={project.liveDemo}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-slate-600 hover:text-slate-800 text-xs"
+                  className="text-secondary hover:font-semibold text-base font-bold"
                   >
                   Live Demo
-                 <LaunchIcon className="text-slate-600 hover:text-slate-800" fontSize="large" />
+                 <LaunchIcon className="text-secondary hover:text-foreground" fontSize="large" />
                 </Link>
               </div>
             </div>
@@ -177,7 +177,7 @@ export default function ProjectsSection() {
         .load-more-btn {
           padding: 0.75rem 2rem;
           border: none;
-          background: #0070f3;
+          background: #BF4A1E;
           color: #fff;
           border-radius: 5px;
           cursor: pointer;
@@ -186,7 +186,8 @@ export default function ProjectsSection() {
         }
 
         .load-more-btn:hover {
-          background: #005bb5;
+          background: white;
+          color: #BF4A1E;
         }
 
         @media (max-width: 768px) {

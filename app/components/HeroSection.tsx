@@ -7,7 +7,9 @@ const HeroSection = () => {
       <section className="hero flex flex-col md:flex lg:flex-row items-center justify-center h-screen   text-white">
             <div className=" flex flex-col w-full items-center text-center px-4">
                 <h1 className=" font-bold mb-4">Web Designer & Frontend Developer at 
-                  <span className='text-secondary px-2'>Brandriko Digital Solutions</span>
+                  <span className='text-secondary px-2'>
+                    <Link href="https://brandrikodigital.co.ke/" className='hover:text-foreground underline underline-offset-2'>Brandriko Digital Solutions</Link>
+                  </span>
                   </h1>
               <p className="text-3xl md:text-8xl font-bold mb-8 uppercase">Mathew Kuria               
                 </p>

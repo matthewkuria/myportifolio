@@ -18,7 +18,7 @@ export default function HamburgerMenu() {
           <div className="block md:hidden">
             <button
               onClick={toggleMenu}
-              className="text-black focus:outline-none"
+              className="text-secondary focus:outline-none"
             >
               <svg
                 className="h-6 w-6"
