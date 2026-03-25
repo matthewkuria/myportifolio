@@ -11,7 +11,7 @@ const HeroSection = () => {
                     <Link href="https://brandrikodigital.co.ke/" className='hover:text-foreground underline underline-offset-2'>Brandriko Digital Solutions</Link>
                   </span>
                   </h1>
-              <p className="text-4xl md:text-8xl font-bold mb-8 uppercase">Mathew Kuria               
+              <p className="text-5xl md:text-8xl font-bold mb-8 uppercase">Mathew Kuria               
                 </p>
                 <p className="mb-6">
                   I design and build modern websites that help businesses attract customers and grow online.

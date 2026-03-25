@@ -31,7 +31,7 @@ export default function ProjectsSection() {
     setVisibleCount(prevCount => prevCount + 3); // Load next 3 projects
   };
   return (
-    <section className="projects-section w-full flex flex-col  py-10" id='projects'>
+    <section className="projects-section w-full flex flex-col text-[13px] py-10" id='projects'>
       {/* Section Title */}
       <h2 className='text-3xl md:text-4xl font-extrabold mb-6 text-center my-4'>Projects</h2>
 

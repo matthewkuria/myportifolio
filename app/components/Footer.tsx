@@ -5,7 +5,7 @@ import Socials from "./Socials";
 
 export default function Footer() {
     return (
-        <footer className={`${open_sans.className} footer text-background `} id="get-in-touch">
+        <footer className={`${open_sans.className} footer text-foreground`} id="get-in-touch">
             <div className="absolute -top-10 flex items-center justify-center w-full z-40">
                 <MkLogo />
             </div>
