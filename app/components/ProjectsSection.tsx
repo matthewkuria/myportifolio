@@ -33,14 +33,14 @@ export default function ProjectsSection() {
   return (
     <section className="projects-section w-full flex flex-col  py-10" id='projects'>
       {/* Section Title */}
-      <h2 className='text-3xl md:text-4xl font-extrabold mb-6 text-center my-4 text-gray-800 '>Projects</h2>
+      <h2 className='text-3xl md:text-4xl font-extrabold mb-6 text-center my-4'>Projects</h2>
 
       {/* Filter Buttons */}
       <div className="filter-buttons">
         {filterOptions.map(option => (
           <button
             key={option}
-            className={`filter-btn bg-none outline-1 outline-slate-300 rounded-md px-2 py-1 text-slate-500 hover:bg-slate-400 hover:text-white ${filter === option ? 'active' : ''}`}
+            className={`filter-btn bg-none outline-1 outline-slate-300 rounded-md px-2 py-1 text-secondary hover:bg-secondary hover:text-white ${filter === option ? 'active' : ''}`}
             onClick={() => {
               setFilter(option)
               setVisibleCount(6); // Reset visible count when filter changes
@@ -130,7 +130,7 @@ export default function ProjectsSection() {
        
 
         .filter-btn.active {
-          background: #0070f3;
+          background: #BF4A1E;
           color: #fff;
         }
 
