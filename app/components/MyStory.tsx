@@ -14,7 +14,7 @@ const MyStory = () => {
           width={200}
           height={300}
           alt='Matthew Kuria'
-          className='rounded-full md:rounded-none h-[200px] w-auto md:h-[300px] bg-white shadow shadow-gray-300 object-cover'
+          className='rounded-full md:rounded-none h-[200px] w-auto md:h-[300px] bg-white  object-cover'
           priority
         />
       </div>
