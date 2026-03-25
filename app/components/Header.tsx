@@ -9,7 +9,7 @@ export default function Header() {
   
     return (
         <>
-            <nav className=" relative py-2 px-4 flex items-center justify-between shadow-md ">
+            <nav className=" relative py-2 px-4 flex items-center justify-between">
                 <Navlogo />
                 <div className="flex items-center justify-between w-3/4 md:w-1/2 pr-3.5">
                     <div className="mx-5">
