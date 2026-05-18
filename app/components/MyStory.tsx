@@ -26,9 +26,10 @@ const MyStory = () => {
           </h1>
 
           <p className="">
-            I am Matthew Kuria, founder of Brandriko Digital Solutions—a Nakuru-based agency specializing in hospitality digital solutions.
-            I combine full-stack development (Next.js, Django, PostgreSQL) with graphic design (Photoshop, Illustrator) to deliver complete digital experiences. My recent work includes Thika Greens Golf Resort, a 5-star golf resort website with booking integration.
-            My mission: Help Kenyan hospitality businesses grow through strategic branding, professional websites, and results-driven digital presence.
+            I’m Matthew Kuria, founder of Brandriko Digital Solutions — a Kenyan-based agency focused on helping businesses solve real digital problems.
+            I combine full-stack development using Next.js, Django, and PostgreSQL with professional graphic design to help businesses build strong, modern, and trustworthy digital presence.
+            My focus is not just creating websites or graphics — it’s helping businesses attract customers, build credibility, and grow online through strategic branding and results-driven digital solutions.
+            At Brandriko, we help businesses move from simply existing online to standing out with purpose.
           </p>
         </div>
       </div>
